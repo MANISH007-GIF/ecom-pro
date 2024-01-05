@@ -24,7 +24,7 @@ const C06NewsletterPopupNewsletter = (props) => {
                 <Img className="h-[25px]" src="images/img_x1.svg" alt="x1" />
               </Button>
               <Text
-                className="absolute bottom-[0] leading-[120.00%] left-[0] sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900 w-[94%] sm:w-full"
+                className="absolute bottom-[0] leading-[120.00%] left-[0] sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900_01 w-[94%] sm:w-full"
                 size="txtPoppinsSemiBold40"
               >
                 {props?.subcribeournews}
@@ -45,7 +45,7 @@ const C06NewsletterPopupNewsletter = (props) => {
                 className="absolute cursor-pointer font-poppins font-semibold h-full inset-y-[0] min-w-[147px] my-auto right-[0] rounded-[24px] text-center text-sm"
                 shape="round"
                 color="green_A700"
-                size="lg"
+                size="xl"
                 variant="fill"
               >
                 {props?.subscribe}

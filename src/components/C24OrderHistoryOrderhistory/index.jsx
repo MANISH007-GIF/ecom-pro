@@ -40,7 +40,7 @@ const C24OrderHistoryOrderhistory = (props) => {
         </Text>
         <Text
           className="md:ml-[0] ml-[106px] text-green-A700 text-sm"
-          size="txtPoppinsMedium14"
+          size="txtPoppinsMedium14GreenA700"
         >
           {props?.dynamictext5}
         </Text>

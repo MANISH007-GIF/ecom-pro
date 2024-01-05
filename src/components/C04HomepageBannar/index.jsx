@@ -32,7 +32,7 @@ const C04HomepageBannar = (props) => {
             }
             shape="round"
             color="white_A700"
-            size="md"
+            size="lg"
             variant="fill"
           >
             <div className="!text-green-A700 font-poppins font-semibold text-justify text-sm">

@@ -35,7 +35,7 @@ const C02HomepageBoxLayoutBannar = (props) => {
                 />
               }
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <div className="font-poppins font-semibold text-base text-left">

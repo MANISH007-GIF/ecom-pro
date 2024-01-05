@@ -8,7 +8,7 @@ const C01HomepageColumnThree = (props) => {
       <div className={props.className}>
         <div className="flex flex-col gap-6 items-center justify-start w-full">
           <Text
-            className="md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900"
+            className="md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900_01"
             size="txtPoppinsSemiBold32"
           >
             {props?.text}

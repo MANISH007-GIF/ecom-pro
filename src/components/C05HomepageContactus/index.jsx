@@ -13,8 +13,8 @@ const C05HomepageContactus = (props) => {
         />
         <div className="flex flex-col gap-2.5 items-start justify-start w-auto">
           <Text
-            className="text-gray-900 text-sm tracking-[0.42px] uppercase w-auto"
-            size="txtPoppinsMedium14Gray900"
+            className="text-gray-900_01 text-sm tracking-[0.42px] uppercase w-auto"
+            size="txtPoppinsMedium14Gray90001"
           >
             {props?.callus247}
           </Text>

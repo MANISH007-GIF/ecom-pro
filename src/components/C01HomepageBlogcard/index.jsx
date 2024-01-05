@@ -10,20 +10,20 @@ const C01HomepageBlogcard = (props) => {
           <Img
             className="absolute h-[324px] inset-[0] justify-center m-auto object-cover rounded-tl-lg rounded-tr-lg w-full"
             alt="image"
-            src={props?.image}
+            src={props?.userimage}
           />
           <div className="absolute bg-white-A700 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
             <Text
-              className="text-center text-gray-900 text-xl"
+              className="text-center text-gray-900_01 text-xl"
               size="txtPoppinsMedium20"
             >
-              {props?.date}
+              {props?.age}
             </Text>
             <Text
               className="text-center text-gray-600 text-xs tracking-[0.36px] uppercase"
               size="txtPoppinsMedium12"
             >
-              {props?.date1}
+              {props?.month}
             </Text>
           </div>
         </div>
@@ -53,7 +53,7 @@ const C01HomepageBlogcard = (props) => {
                   className="text-gray-800 text-sm w-auto"
                   size="txtPoppinsRegular14Gray800"
                 >
-                  {props?.authorname}
+                  {props?.admin}
                 </Text>
               </div>
               <div className="flex flex-row gap-1 items-center justify-start w-auto">
@@ -97,11 +97,11 @@ const C01HomepageBlogcard = (props) => {
 };
 
 C01HomepageBlogcard.defaultProps = {
-  image: "images/img_image_324x424.png",
-  date: "18",
-  date1: "Nov",
+  userimage: "images/img_image_324x424.png",
+  age: "18",
+  month: "Nov",
   category: "Food",
-  authorname: "By Admin",
+  admin: "By Admin",
   commentscounter: "65 Comments",
   description:
     "Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum.",

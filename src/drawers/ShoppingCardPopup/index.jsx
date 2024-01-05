@@ -13,13 +13,13 @@ const ShoppingCardPopupDrawer = (props) => {
             <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
               <div className="flex flex-row gap-3 items-center justify-between w-[376px] sm:w-full">
                 <Text
-                  className="text-gray-900 text-xl w-auto"
+                  className="text-gray-900_01 text-xl w-auto"
                   size="txtPoppinsMedium20"
                 >
-                  <span className="text-gray-900 font-poppins text-left font-medium">
+                  <span className="text-gray-900_01 font-poppins text-left font-medium">
                     Shopping Card{" "}
                   </span>
-                  <span className="text-gray-900 font-poppins text-left font-medium">
+                  <span className="text-gray-900_01 font-poppins text-left font-medium">
                     (2)
                   </span>
                 </Text>
@@ -45,8 +45,8 @@ const ShoppingCardPopupDrawer = (props) => {
                   />
                   <div className="flex flex-col gap-0.5 items-start justify-start w-auto">
                     <Text
-                      className="text-gray-900 text-sm w-auto"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm w-auto"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Fresh Indian Orange
                     </Text>
@@ -64,7 +64,7 @@ const ShoppingCardPopupDrawer = (props) => {
                         x
                       </Text>
                       <Text
-                        className="text-gray-900 text-sm w-auto"
+                        className="text-gray-900_01 text-sm w-auto"
                         size="txtPoppinsSemiBold14"
                       >
                         12.00
@@ -86,8 +86,8 @@ const ShoppingCardPopupDrawer = (props) => {
                   />
                   <div className="flex flex-col gap-0.5 items-start justify-start w-auto">
                     <Text
-                      className="text-gray-900 text-sm w-auto"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm w-auto"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Green Apple
                     </Text>
@@ -105,7 +105,7 @@ const ShoppingCardPopupDrawer = (props) => {
                         x
                       </Text>
                       <Text
-                        className="text-gray-900 text-sm w-auto"
+                        className="text-gray-900_01 text-sm w-auto"
                         size="txtPoppinsSemiBold14"
                       >
                         14.00
@@ -123,13 +123,13 @@ const ShoppingCardPopupDrawer = (props) => {
             <div className="flex flex-col items-start justify-start w-auto sm:w-full">
               <div className="bg-white-A700 flex flex-row items-center justify-between py-6 w-[376px] sm:w-full">
                 <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtPoppinsRegular16Gray900"
+                  className="text-base text-gray-900_01 w-auto"
+                  size="txtPoppinsRegular16Gray90001"
                 >
                   2 Product
                 </Text>
                 <Text
-                  className="text-base text-gray-900 w-auto"
+                  className="text-base text-gray-900_01 w-auto"
                   size="txtPoppinsSemiBold16"
                 >
                   $26.00
@@ -139,7 +139,7 @@ const ShoppingCardPopupDrawer = (props) => {
                 <Button
                   className="cursor-pointer font-semibold rounded-[25px] text-base text-center w-[376px]"
                   color="green_A700"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   Checkout
@@ -147,7 +147,7 @@ const ShoppingCardPopupDrawer = (props) => {
                 <Button
                   className="cursor-pointer font-semibold rounded-[25px] text-base text-center w-[376px]"
                   color="green_500_19"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   Go To Cart

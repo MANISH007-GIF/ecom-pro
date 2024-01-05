@@ -11,6 +11,9 @@ const Home = () => {
       </p>
       <ul>
         <li>
+          <Link to="/thumbnail">Thumbnail</Link>
+        </li>
+        <li>
           <Link to="/homepage">Homepage</Link>
         </li>
         <li>

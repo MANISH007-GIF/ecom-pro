@@ -37,13 +37,13 @@ const C04HomepageBestdeal = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-center text-green-A700 w-auto"
                 size="txtPoppinsRegular32GreenA700"
               >
-                {props?.zerotext}
+                {props?.daystext}
               </Text>
               <Text
                 className="text-center text-gray-600_01 text-sm tracking-[0.42px] uppercase w-auto"
                 size="txtPoppinsMedium14Gray60001"
               >
-                {props?.daystext}
+                {props?.dayslabel}
               </Text>
             </div>
             <Text
@@ -57,13 +57,13 @@ const C04HomepageBestdeal = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-center text-green-A700 w-auto"
                 size="txtPoppinsRegular32GreenA700"
               >
-                {props?.twotext}
+                {props?.hourstext}
               </Text>
               <Text
                 className="text-center text-gray-600_01 text-sm tracking-[0.42px] uppercase w-auto"
                 size="txtPoppinsRegular14Gray60001"
               >
-                {props?.hourstext}
+                {props?.hourslabel}
               </Text>
             </div>
             <Text
@@ -77,13 +77,13 @@ const C04HomepageBestdeal = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-center text-green-A700 w-auto"
                 size="txtPoppinsRegular32GreenA700"
               >
-                {props?.eighteentext}
+                {props?.minutestext}
               </Text>
               <Text
                 className="text-center text-gray-600_01 text-sm tracking-[0.42px] uppercase w-auto"
                 size="txtPoppinsRegular14Gray60001"
               >
-                {props?.minstext}
+                {props?.minuteslabel}
               </Text>
             </div>
             <Text
@@ -97,13 +97,13 @@ const C04HomepageBestdeal = (props) => {
                 className="md:text-3xl sm:text-[28px] text-[32px] text-center text-green-A700 w-auto"
                 size="txtPoppinsRegular32GreenA700"
               >
-                {props?.fortysixtext}
+                {props?.secondstext}
               </Text>
               <Text
                 className="text-center text-gray-600_01 text-sm tracking-[0.42px] uppercase w-auto"
                 size="txtPoppinsRegular14Gray60001"
               >
-                {props?.secstext}
+                {props?.secondslabel}
               </Text>
             </div>
           </div>
@@ -117,11 +117,11 @@ const C04HomepageBestdeal = (props) => {
               />
             }
             color="green_A700"
-            size="md"
+            size="lg"
             variant="fill"
           >
             <div className="font-poppins font-semibold text-base text-left">
-              {props?.shopnowbutton}
+              {props?.shopNowOne}
             </div>
           </Button>
         </div>
@@ -133,18 +133,18 @@ const C04HomepageBestdeal = (props) => {
 C04HomepageBestdeal.defaultProps = {
   bestdealstext: "Best Deals",
   specialproductstext: "Our Special Products Deal of the Month",
-  zerotext: "00",
-  daystext: "Days",
+  daystext: "00",
+  dayslabel: "Days",
   sixteen: ":",
-  twotext: "02",
-  hourstext: "Hours",
+  hourstext: "02",
+  hourslabel: "Hours",
   seventeen: ":",
-  eighteentext: "18",
-  minstext: "Mins",
+  minutestext: "18",
+  minuteslabel: "Mins",
   nineteen: ":",
-  fortysixtext: "46",
-  secstext: "Secs",
-  shopnowbutton: "Shop now",
+  secondstext: "46",
+  secondslabel: "Secs",
+  shopNowOne: "Shop now",
 };
 
 export default C04HomepageBestdeal;

@@ -53,7 +53,7 @@ const C01HomepageBannarbig = (props) => {
               />
             }
             color="white_A700"
-            size="md"
+            size="lg"
             variant="fill"
           >
             <div className="!text-green-A700 font-poppins font-semibold text-base text-left">

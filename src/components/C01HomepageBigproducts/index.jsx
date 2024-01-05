@@ -23,7 +23,7 @@ const C01HomepageBigproducts = (props) => {
                 </Text>
                 <Text
                   className="text-sm text-white-A700 w-auto"
-                  size="txtPoppinsMedium14WhiteA700"
+                  size="txtPoppinsMedium14"
                 >
                   {props?.fifty}
                 </Text>
@@ -41,7 +41,7 @@ const C01HomepageBigproducts = (props) => {
               className="flex h-[46px] items-center justify-center rounded-[50%] w-[46px]"
               shape="circle"
               color="gray_100"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <Img
@@ -63,7 +63,7 @@ const C01HomepageBigproducts = (props) => {
               }
               shape="round"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <div className="font-poppins font-semibold text-left text-sm">
@@ -74,7 +74,7 @@ const C01HomepageBigproducts = (props) => {
               className="flex h-[46px] items-center justify-center rounded-[50%] w-[46px]"
               shape="circle"
               color="gray_100"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <Img className="h-5" src="images/img_eye1.svg" alt="eyeOne" />
@@ -91,7 +91,7 @@ const C01HomepageBigproducts = (props) => {
             </Text>
             <div className="flex flex-row gap-1 items-start justify-start w-auto">
               <Text
-                className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                 size="txtPoppinsMedium24"
               >
                 {props?.priceOne}
@@ -152,7 +152,7 @@ const C01HomepageBigproducts = (props) => {
             >
               <div className="flex flex-col items-center justify-start w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsMedium18"
                 >
                   {props?.one}
@@ -166,7 +166,7 @@ const C01HomepageBigproducts = (props) => {
               </div>
               <div className="flex flex-col items-center justify-start w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsMedium18"
                 >
                   {props?.twentythree}
@@ -187,7 +187,7 @@ const C01HomepageBigproducts = (props) => {
             </Text>
             <div className="flex flex-col items-center justify-start w-auto">
               <Text
-                className="text-center text-gray-900 text-lg w-auto"
+                className="text-center text-gray-900_01 text-lg w-auto"
                 size="txtPoppinsMedium18"
               >
                 {props?.thirtyfour}
@@ -207,7 +207,7 @@ const C01HomepageBigproducts = (props) => {
             </Text>
             <div className="flex flex-col items-center justify-start w-auto">
               <Text
-                className="text-center text-gray-900 text-lg w-auto"
+                className="text-center text-gray-900_01 text-lg w-auto"
                 size="txtPoppinsMedium18"
               >
                 {props?.fiftyseven}

@@ -15,7 +15,7 @@ const C01HomepageProduct5n2 = (props) => {
             />
             <div className="absolute flex flex-col gap-1.5 items-center justify-start right-[2%] top-[2%] w-[16%] md:w-full">
               <Button
-                className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                 shape="circle"
                 color="white_A700"
                 size="md"
@@ -28,7 +28,7 @@ const C01HomepageProduct5n2 = (props) => {
                 />
               </Button>
               <Button
-                className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                 shape="circle"
                 color="white_A700"
                 size="md"
@@ -46,14 +46,14 @@ const C01HomepageProduct5n2 = (props) => {
                 className="text-green-800 text-sm w-auto"
                 size="txtPoppinsRegular14Green800"
               >
-                {props?.languagetext}
+                {props?.language}
               </Text>
               <div className="flex flex-col items-start justify-start w-auto">
                 <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtPoppinsMedium16"
+                  className="text-base text-gray-900_01 w-auto"
+                  size="txtPoppinsMedium16Gray90001"
                 >
-                  {props?.pricetext}
+                  {props?.priceOne}
                 </Text>
               </div>
             </div>
@@ -83,8 +83,8 @@ const C01HomepageProduct5n2 = (props) => {
 };
 
 C01HomepageProduct5n2.defaultProps = {
-  languagetext: "Chinese cabbage",
-  pricetext: "$12.00",
+  language: "Chinese cabbage",
+  priceOne: "$12.00",
 };
 
 export default C01HomepageProduct5n2;

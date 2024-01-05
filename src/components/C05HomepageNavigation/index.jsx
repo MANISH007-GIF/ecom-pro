@@ -25,19 +25,19 @@ const C05HomepageNavigation = (props) => {
               alt="linkedin_One"
             />
             <Text
-              className="text-green-900 text-xs w-auto"
-              size="txtPoppinsRegular12Green900"
+              className="text-green-900_01 text-xs w-auto"
+              size="txtPoppinsRegular12Green90001"
             >
               {props?.storelocationtext}
             </Text>
           </div>
           <div className="flex sm:flex-1 flex-row gap-5 items-center justify-start w-auto sm:w-full">
             <SelectBox
-              className="font-poppins text-center text-green-900 text-xs w-[39%] sm:w-full"
-              placeholderClassName="text-green-900"
+              className="font-poppins text-center text-green-900_01 text-xs w-[39%] sm:w-full"
+              placeholderClassName="text-green-900_01"
               indicator={
                 <Img
-                  className="h-[3px] outline-green-900 outline-[0.5px] outline w-[7px]"
+                  className="h-[3px] outline-green-900_01 outline-[0.5px] outline w-[7px]"
                   src="images/img_arrowdown_green_900.svg"
                   alt="arrow_down"
                 />
@@ -50,11 +50,11 @@ const C05HomepageNavigation = (props) => {
               size="xs"
             />
             <SelectBox
-              className="font-poppins text-center text-green-900 text-xs w-[41%] sm:w-full"
-              placeholderClassName="text-green-900"
+              className="font-poppins text-center text-green-900_01 text-xs w-[41%] sm:w-full"
+              placeholderClassName="text-green-900_01"
               indicator={
                 <Img
-                  className="h-[3px] outline-green-900 outline-[0.5px] outline w-[7px]"
+                  className="h-[3px] outline-green-900_01 outline-[0.5px] outline w-[7px]"
                   src="images/img_arrowdown_green_900.svg"
                   alt="arrow_down"
                 />
@@ -72,8 +72,8 @@ const C05HomepageNavigation = (props) => {
             <div className="flex sm:flex-col flex-row gap-[27px] items-start justify-start w-auto sm:w-full">
               <div className="flex flex-row gap-1 items-center justify-start w-auto">
                 <Text
-                  className="text-gray-900 text-sm w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   {props?.homeFive}
                 </Text>
@@ -139,7 +139,7 @@ const C05HomepageNavigation = (props) => {
               />
               <Text
                 className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 tracking-[-0.96px] w-auto"
-                size="txtPoppinsMedium32"
+                size="txtPoppinsMedium32Black900"
               >
                 {props?.ecobazarTwo}
               </Text>
@@ -152,8 +152,8 @@ const C05HomepageNavigation = (props) => {
                   alt="call_One"
                 />
                 <Text
-                  className="text-gray-900 text-sm w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   {props?.phonenumber}
                 </Text>

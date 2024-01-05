@@ -11,7 +11,7 @@ const C04HomepageFeatured = (props) => {
             className="flex h-[70px] items-center justify-center rounded-[50%] w-[70px]"
             shape="circle"
             color="white_A700"
-            size="lg"
+            size="xl"
             variant="fill"
           >
             <Img
@@ -52,7 +52,7 @@ const C04HomepageFeatured = (props) => {
           </Button>
           <div className="flex flex-col gap-2 items-start justify-center w-auto">
             <Text
-              className="text-gray-900 text-lg w-auto"
+              className="text-gray-900_01 text-lg w-auto"
               size="txtPoppinsSemiBold18"
             >
               {props?.greatsupport247one}
@@ -71,7 +71,7 @@ const C04HomepageFeatured = (props) => {
             className="border border-gray-300_03 border-solid flex h-[70px] items-center justify-center rounded-[50%] w-[70px]"
             shape="circle"
             color="white_A700"
-            size="xl"
+            size="2xl"
             variant="fill"
           >
             <Img
@@ -82,7 +82,7 @@ const C04HomepageFeatured = (props) => {
           </Button>
           <div className="flex flex-col gap-2 items-start justify-center w-auto">
             <Text
-              className="text-gray-900 text-lg w-auto"
+              className="text-gray-900_01 text-lg w-auto"
               size="txtPoppinsSemiBold18"
             >
               {props?.p100sucurepaymenone}
@@ -101,14 +101,14 @@ const C04HomepageFeatured = (props) => {
             className="border border-gray-300_03 border-solid flex h-[70px] items-center justify-center rounded-[50%] w-[70px]"
             shape="circle"
             color="white_A700"
-            size="xl"
+            size="2xl"
             variant="fill"
           >
             <Img className="h-8" src="images/img_package.svg" alt="package" />
           </Button>
           <div className="flex flex-col gap-2 items-start justify-center w-auto">
             <Text
-              className="text-gray-900 text-lg w-auto"
+              className="text-gray-900_01 text-lg w-auto"
               size="txtPoppinsSemiBold18"
             >
               {props?.moneybackguaranOne}

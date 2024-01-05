@@ -36,7 +36,7 @@ const Footer = (props) => {
               <Button
                 className="absolute cursor-pointer font-poppins font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 Subscribe
@@ -47,7 +47,7 @@ const Footer = (props) => {
                 className="flex h-10 items-center justify-center rounded-[50%] w-10"
                 shape="round"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <Img
@@ -57,9 +57,9 @@ const Footer = (props) => {
                 />
               </Button>
               <Button
-                className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="flex h-10 items-center justify-center w-10"
                 shape="circle"
-                size="md"
+                size="lg"
               >
                 <Img
                   className="h-[18px]"
@@ -90,7 +90,7 @@ const Footer = (props) => {
                   />
                   <Text
                     className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[-0.96px] w-auto"
-                    size="txtPoppinsMedium32WhiteA700"
+                    size="txtPoppinsMedium32"
                   >
                     Ecobazar
                   </Text>
@@ -105,7 +105,7 @@ const Footer = (props) => {
                 <div className="flex flex-row gap-4 items-center justify-start w-auto">
                   <Text
                     className="bg-gray-900 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
-                    size="txtPoppinsMedium14WhiteA700"
+                    size="txtPoppinsMedium14"
                   >
                     (219) 555-0114
                   </Text>
@@ -117,7 +117,7 @@ const Footer = (props) => {
                   </Text>
                   <Text
                     className="bg-gray-900 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
-                    size="txtPoppinsMedium14WhiteA700"
+                    size="txtPoppinsMedium14"
                   >
                     Proxy@gmail.com
                   </Text>
@@ -126,7 +126,7 @@ const Footer = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start ml-28 md:ml-[0] w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   My Account
                 </Text>
@@ -168,7 +168,7 @@ const Footer = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[129px] w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   Helps
                 </Text>
@@ -210,7 +210,7 @@ const Footer = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[95px] w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   Proxy
                 </Text>
@@ -252,7 +252,7 @@ const Footer = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[141px] w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   Categories
                 </Text>

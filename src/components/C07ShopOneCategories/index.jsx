@@ -13,8 +13,8 @@ const C07ShopOneCategories = (props) => {
         </div>
         <div className="flex flex-row items-start justify-start w-auto">
           <Text
-            className="text-gray-900 text-sm w-auto"
-            size="txtPoppinsRegular14Gray900"
+            className="text-gray-900_01 text-sm w-auto"
+            size="txtPoppinsRegular14Gray90001"
           >
             {props?.dynamicproperty2}
           </Text>

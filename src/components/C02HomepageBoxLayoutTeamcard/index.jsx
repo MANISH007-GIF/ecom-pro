@@ -14,9 +14,9 @@ const C02HomepageBoxLayoutTeamcard = (props) => {
           />
           <div className="absolute flex flex-row gap-1 h-max inset-[0] items-center justify-center m-auto w-auto">
             <Button
-              className="flex h-10 items-center justify-center rounded-[50%] w-10"
+              className="flex h-10 items-center justify-center w-10"
               shape="circle"
-              size="md"
+              size="lg"
             >
               <Img
                 className="h-[18px]"
@@ -28,7 +28,7 @@ const C02HomepageBoxLayoutTeamcard = (props) => {
               className="flex h-10 items-center justify-center rounded-[50%] w-10"
               shape="round"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <Img
@@ -51,7 +51,7 @@ const C02HomepageBoxLayoutTeamcard = (props) => {
         </div>
         <div className="flex flex-col gap-1 items-start justify-start w-auto">
           <Text
-            className="text-gray-900 text-lg w-auto"
+            className="text-gray-900_01 text-lg w-auto"
             size="txtPoppinsMedium18"
           >
             {props?.username}

@@ -16,7 +16,7 @@ const C05HomepageBannar = (props) => {
             <div className="flex flex-col gap-2 items-start justify-start w-auto">
               <Text
                 className="text-sm text-white-A700 tracking-[0.42px] uppercase w-auto"
-                size="txtPoppinsMedium14WhiteA700"
+                size="txtPoppinsMedium14"
               >
                 {props?.p100organic}
               </Text>
@@ -38,7 +38,7 @@ const C05HomepageBannar = (props) => {
                 {!!props?.priceTwo ? (
                   <Text
                     className="text-base text-center text-white-A700 w-auto"
-                    size="txtPoppinsMedium16WhiteA700"
+                    size="txtPoppinsMedium16"
                   >
                     {props?.priceTwo}
                   </Text>

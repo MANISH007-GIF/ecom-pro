@@ -4,3 +4,6 @@
  @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/PoppinsSemiBold.ttf"); font-family : "Poppins"; font-weight : 600;  }
  @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/PoppinsLight.ttf"); font-family : "Poppins"; font-weight : 300;  }
  @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/DancingScriptBold.ttf"); font-family : "Dancing Script"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/DMSansBold.ttf"); font-family : "DM Sans"; font-weight : 700;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/DMSansRegular.ttf"); font-family : "DM Sans"; font-weight : 400;  }
+ @font-face { font-display: swap; font-style : normal; src: url("assets/fonts/DMSansMedium.ttf"); font-family : "DM Sans"; font-weight : 500;  }

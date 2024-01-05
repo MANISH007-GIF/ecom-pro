@@ -13,13 +13,13 @@ const C01HomepageBannar4 = (props) => {
         />
         <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[6%] w-[76%]">
           <Text
-            className="text-center text-gray-900 text-sm tracking-[0.42px] uppercase"
-            size="txtPoppinsMedium14Gray900"
+            className="text-center text-gray-900_01 text-sm tracking-[0.42px] uppercase"
+            size="txtPoppinsMedium14Gray90001"
           >
             {props?.summersale}
           </Text>
           <Text
-            className="mt-1 sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900"
+            className="mt-1 sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900_01"
             size="txtPoppinsSemiBold40"
           >
             {props?.p100freshfruit}
@@ -27,15 +27,15 @@ const C01HomepageBannar4 = (props) => {
           <div className="flex flex-col gap-6 items-center justify-start mt-[3px] w-[51%] md:w-full">
             <div className="flex flex-row gap-3 items-center justify-start w-auto">
               <Text
-                className="text-center text-gray-900 text-lg w-auto"
-                size="txtPoppinsRegular18Gray900"
+                className="text-center text-gray-900_01 text-lg w-auto"
+                size="txtPoppinsRegular18Gray90001"
               >
                 {props?.upto}
               </Text>
               <Button
                 className="!text-amber-A400 cursor-pointer font-poppins font-semibold min-w-[100px] rounded-[5px] text-center text-lg"
-                color="gray_900"
-                size="sm"
+                color="gray_900_01"
+                size="xs"
                 variant="fill"
               >
                 {props?.p64off}
@@ -52,7 +52,7 @@ const C01HomepageBannar4 = (props) => {
               }
               shape="round"
               color="white_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <div className="!text-green-A700 font-poppins font-semibold text-justify text-sm">

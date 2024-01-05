@@ -97,8 +97,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="appleOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Fresh Fruit
                     </Text>
@@ -127,8 +127,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="fishTwo"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       River Fish
                     </Text>
@@ -140,8 +140,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="meatTwo"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Chicken & Meat
                     </Text>
@@ -153,8 +153,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="coffeeOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Drink & Water
                     </Text>
@@ -166,8 +166,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="icecreamOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Yogurt & Ice Cream
                     </Text>
@@ -179,8 +179,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="cupcakeOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Cake & Bread
                     </Text>
@@ -192,8 +192,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="pieOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Butter & Cream
                     </Text>
@@ -205,8 +205,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="foodOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Cooking
                     </Text>
@@ -218,8 +218,8 @@ const HomepageBoxLayoutPage = () => {
                       alt="plussolidOne"
                     />
                     <Text
-                      className="text-gray-900 text-sm"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       View all Category
                     </Text>
@@ -252,10 +252,10 @@ const HomepageBoxLayoutPage = () => {
               >
                 <div className="bg-white-A700 hover:cursor-pointer flex flex-row gap-4 items-center justify-start hover:mx-0 py-[30px] hover:shadow-bs11 w-auto hover:w-full">
                   <Button
-                    className="flex h-[72px] items-center justify-center w-[72px]"
+                    className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                     shape="circle"
                     color="gray_200"
-                    size="lg"
+                    size="xl"
                     variant="fill"
                   >
                     <Img
@@ -266,7 +266,7 @@ const HomepageBoxLayoutPage = () => {
                   </Button>
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-gray-900 text-lg w-auto"
+                      className="text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsSemiBold18"
                     >
                       Free Shipping
@@ -281,7 +281,7 @@ const HomepageBoxLayoutPage = () => {
                 </div>
                 <div className="bg-white-A700 hover:cursor-pointer flex flex-row gap-4 items-center justify-start hover:mx-0 py-[30px] hover:shadow-bs11 w-auto hover:w-full">
                   <Button
-                    className="flex h-[72px] items-center justify-center w-[72px]"
+                    className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                     shape="circle"
                     color="gray_200"
                     size="xl"
@@ -295,7 +295,7 @@ const HomepageBoxLayoutPage = () => {
                   </Button>
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-gray-900 text-lg w-auto"
+                      className="text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsSemiBold18"
                     >
                       Great Support 24/7
@@ -310,7 +310,7 @@ const HomepageBoxLayoutPage = () => {
                 </div>
                 <div className="bg-white-A700 hover:cursor-pointer flex flex-row gap-4 items-center justify-start hover:mx-0 py-[30px] hover:shadow-bs11 shadow-bs11 w-auto hover:w-full">
                   <Button
-                    className="flex h-[72px] items-center justify-center w-[72px]"
+                    className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                     shape="circle"
                     color="green_A700"
                     size="xl"
@@ -324,7 +324,7 @@ const HomepageBoxLayoutPage = () => {
                   </Button>
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-gray-900 text-lg w-auto"
+                      className="text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsSemiBold18"
                     >
                       100% Sucure Payment
@@ -339,7 +339,7 @@ const HomepageBoxLayoutPage = () => {
                 </div>
                 <div className="bg-white-A700 hover:cursor-pointer flex flex-row gap-4 items-center justify-start hover:mx-0 py-[30px] hover:shadow-bs11 w-auto hover:w-full">
                   <Button
-                    className="flex h-[72px] items-center justify-center w-[72px]"
+                    className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                     shape="circle"
                     color="gray_200"
                     size="xl"
@@ -353,7 +353,7 @@ const HomepageBoxLayoutPage = () => {
                   </Button>
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-gray-900 text-lg w-auto"
+                      className="text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsSemiBold18"
                     >
                       Money-Back Guarantee
@@ -390,12 +390,12 @@ const HomepageBoxLayoutPage = () => {
               <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
                 <Text
                   className="text-center text-green-A700 text-sm tracking-[0.28px] uppercase w-auto"
-                  size="txtPoppinsMedium14"
+                  size="txtPoppinsMedium14GreenA700"
                 >
                   Category
                 </Text>
                 <Text
-                  className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900 w-auto"
+                  className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900_01 w-auto"
                   size="txtPoppinsSemiBold36"
                 >
                   Shop by Top Categories
@@ -410,7 +410,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Fresh Fruit
@@ -436,7 +436,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Meat & Fish
@@ -449,7 +449,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Snacks
@@ -462,7 +462,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Beverages
@@ -475,7 +475,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Beauty & Health
@@ -488,7 +488,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Bread & Bakery
@@ -501,7 +501,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Baking Needs
@@ -514,7 +514,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Cooking
@@ -527,7 +527,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Diabetic Food
@@ -540,7 +540,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Dish Detergents
@@ -553,7 +553,7 @@ const HomepageBoxLayoutPage = () => {
                       alt="imageOne"
                     />
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Oil
@@ -567,12 +567,12 @@ const HomepageBoxLayoutPage = () => {
             <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
               <Text
                 className="text-center text-green-A700 text-sm tracking-[0.28px] uppercase w-auto"
-                size="txtPoppinsMedium14"
+                size="txtPoppinsMedium14GreenA700"
               >
                 Products
               </Text>
               <Text
-                className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900 w-auto"
+                className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold36"
               >
                 Our Featured Products
@@ -604,7 +604,7 @@ const HomepageBoxLayoutPage = () => {
                   <div className="flex my-auto w-[70%] md:w-full">
                     <div className="flex flex-col gap-4 items-start justify-start my-auto w-[424px]">
                       <Text
-                        className="text-gray-900 text-lg w-auto"
+                        className="text-gray-900_01 text-lg w-auto"
                         size="txtPoppinsMedium18"
                       >
                         Hot Deals
@@ -614,14 +614,7 @@ const HomepageBoxLayoutPage = () => {
                         productimage="images/img_image.png"
                         productname="Green Apple"
                       />
-                      <div className="flex flex-col items-center justify-start w-full">
-                        <C02HomepageBoxLayoutProduct1
-                          className="md:h-[114px] h-[116px] relative w-[424px] sm:w-full"
-                          bagtwo="images/img_bag_white_a700.svg"
-                          eyeoneone="images/img_eye1.svg"
-                          favoritetwo="images/img_favorite.svg"
-                        />
-                      </div>
+                      <C02HomepageBoxLayoutProduct1 className="flex flex-col items-center justify-start w-full" />
                       <C02HomepageBoxLayoutProduct
                         className="md:h-[114px] h-[116px] relative w-[424px] sm:w-full"
                         productimage="images/img_image_6.png"
@@ -630,7 +623,7 @@ const HomepageBoxLayoutPage = () => {
                     </div>
                     <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-[424px] z-[1]">
                       <Text
-                        className="text-gray-900 text-lg w-auto"
+                        className="text-gray-900_01 text-lg w-auto"
                         size="txtPoppinsMedium18"
                       >
                         Best Seller
@@ -656,7 +649,7 @@ const HomepageBoxLayoutPage = () => {
                   </div>
                   <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-[424px] z-[1]">
                     <Text
-                      className="text-gray-900 text-lg w-auto"
+                      className="text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Top Rated
@@ -683,11 +676,11 @@ const HomepageBoxLayoutPage = () => {
                 <C02HomepageBoxLayoutBannar2
                   className="h-[423px] ml-[-88px] my-auto w-[24%] z-[1]"
                   startingat2399={
-                    <Text className="font-semibold leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900">
-                      <span className="text-gray-900 font-poppins">
+                    <Text className="font-semibold leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900_01">
+                      <span className="text-gray-900_01 font-poppins">
                         Save 37%
                       </span>
-                      <span className="text-gray-900 font-poppins font-normal">
+                      <span className="text-gray-900_01 font-poppins font-normal">
                         <>
                           {" "}
                           on
@@ -708,12 +701,12 @@ const HomepageBoxLayoutPage = () => {
               <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
                 <Text
                   className="text-center text-green-A700 text-sm tracking-[0.28px] uppercase w-auto"
-                  size="txtPoppinsMedium14"
+                  size="txtPoppinsMedium14GreenA700"
                 >
                   Team
                 </Text>
                 <Text
-                  className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900 w-auto"
+                  className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900_01 w-auto"
                   size="txtPoppinsSemiBold36"
                 >
                   Our Professional Members
@@ -743,12 +736,12 @@ const HomepageBoxLayoutPage = () => {
             <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
               <Text
                 className="text-center text-green-A700 text-sm tracking-[0.28px] uppercase w-auto"
-                size="txtPoppinsMedium14"
+                size="txtPoppinsMedium14GreenA700"
               >
                 Client Testiomial
               </Text>
               <Text
-                className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900 w-auto"
+                className="text-4xl sm:text-[32px] md:text-[34px] text-center text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold36"
               >
                 What our Client Says
@@ -781,8 +774,8 @@ const HomepageBoxLayoutPage = () => {
                     />
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
-                        className="text-base text-center text-gray-900 w-auto"
-                        size="txtPoppinsMedium16"
+                        className="text-base text-center text-gray-900_01 w-auto"
+                        size="txtPoppinsMedium16Gray90001"
                       >
                         Robert Fox
                       </Text>
@@ -824,8 +817,8 @@ const HomepageBoxLayoutPage = () => {
                     />
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
-                        className="text-base text-center text-gray-900 w-auto"
-                        size="txtPoppinsMedium16"
+                        className="text-base text-center text-gray-900_01 w-auto"
+                        size="txtPoppinsMedium16Gray90001"
                       >
                         Dianne Russell
                       </Text>
@@ -867,8 +860,8 @@ const HomepageBoxLayoutPage = () => {
                     />
                     <div className="flex flex-col items-start justify-start w-auto">
                       <Text
-                        className="text-base text-center text-gray-900 w-auto"
-                        size="txtPoppinsMedium16"
+                        className="text-base text-center text-gray-900_01 w-auto"
+                        size="txtPoppinsMedium16Gray90001"
                       >
                         Eleanor Pena
                       </Text>

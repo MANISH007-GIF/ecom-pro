@@ -8,7 +8,7 @@ const variants = {
     white_A700: "bg-white-A700 text-gray-500",
     blue_gray_900: "bg-blue_gray-900",
     gray_200: "bg-gray-200 shadow-bs1",
-    gray_100: "bg-gray-100 text-gray-900",
+    gray_100: "bg-gray-100 text-gray-900_01",
   },
 };
 const shapes = { square: "rounded-none", round: "rounded-md" };

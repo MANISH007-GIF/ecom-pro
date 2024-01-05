@@ -5,7 +5,6 @@ import C01HomepageColumnuser from "components/C01HomepageColumnuser";
 import C02HomepageBoxLayoutTeamcard from "components/C02HomepageBoxLayoutTeamcard";
 import C02HomepageBoxLayoutTeamcard1 from "components/C02HomepageBoxLayoutTeamcard1";
 import C07ShopOneBreadcrumbs from "components/C07ShopOneBreadcrumbs";
-import Footer from "components/Footer";
 import Header from "components/Header";
 
 const AboutPage = () => {
@@ -42,8 +41,8 @@ const AboutPage = () => {
           <div className="flex md:flex-col flex-row md:gap-[41px] items-center justify-between w-full">
             <div className="flex flex-col gap-8 items-center justify-start">
               <Text
-                className="leading-[120.00%] md:text-5xl sm:text-[42px] text-[56px] text-gray-900 w-full"
-                size="txtPoppinsSemiBold56Gray900"
+                className="leading-[120.00%] md:text-5xl sm:text-[42px] text-[56px] text-gray-900_01 w-full"
+                size="txtPoppinsSemiBold56Gray90001"
               >
                 100% Trusted Organic Food Store
               </Text>
@@ -67,7 +66,7 @@ const AboutPage = () => {
             />
           </div>
         </div>
-        <div className="bg-gradient4  h-[685px] md:h-[765px] mt-20 pr-[300px] md:px-5 relative shadow-bs5 w-full">
+        <div className="bg-gradient5  h-[685px] md:h-[765px] mt-20 pr-[300px] md:px-5 relative shadow-bs5 w-full">
           <div className="absolute h-[685px] inset-y-[0] left-[0] my-auto w-[85%] md:w-full">
             <div className="absolute h-[685px] inset-y-[0] left-[0] my-auto w-[70%] md:w-full">
               <Img
@@ -104,7 +103,7 @@ const AboutPage = () => {
             </div>
             <div className="absolute bg-white-A700 bottom-[41%] flex flex-row gap-4 items-center justify-center right-[21%] w-auto">
               <Button
-                className="flex h-[72px] items-center justify-center w-[72px]"
+                className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                 shape="circle"
                 color="green_A700_19"
                 size="xl"
@@ -118,7 +117,7 @@ const AboutPage = () => {
               </Button>
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-gray-900 text-lg w-auto"
+                  className="text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsMedium18"
                 >
                   100% Organic food
@@ -133,7 +132,7 @@ const AboutPage = () => {
             </div>
             <div className="absolute bg-white-A700 bottom-[27%] flex flex-row gap-4 items-center justify-center right-[21%] w-auto">
               <Button
-                className="flex h-[72px] items-center justify-center w-[72px]"
+                className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                 shape="circle"
                 color="green_A700_19"
                 size="xl"
@@ -147,7 +146,7 @@ const AboutPage = () => {
               </Button>
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-gray-900 text-lg w-auto"
+                  className="text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsMedium18"
                 >
                   Customer Feedback
@@ -162,7 +161,7 @@ const AboutPage = () => {
             </div>
             <div className="absolute bg-white-A700 bottom-[13%] flex flex-row gap-4 items-center justify-center right-[21%] w-auto">
               <Button
-                className="flex h-[72px] items-center justify-center w-[72px]"
+                className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                 shape="circle"
                 color="green_A700_19"
                 size="xl"
@@ -176,7 +175,7 @@ const AboutPage = () => {
               </Button>
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-gray-900 text-lg w-auto"
+                  className="text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsMedium18"
                 >
                   Free Shipping
@@ -195,7 +194,7 @@ const AboutPage = () => {
             >
               <div className="bg-white-A700 flex flex-row gap-4 items-center justify-start w-auto">
                 <Button
-                  className="flex h-[72px] items-center justify-center w-[72px]"
+                  className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                   shape="circle"
                   color="green_A700_19"
                   size="xl"
@@ -209,7 +208,7 @@ const AboutPage = () => {
                 </Button>
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-gray-900 text-lg w-auto"
+                    className="text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsMedium18"
                   >
                     Great Support 24/7
@@ -224,7 +223,7 @@ const AboutPage = () => {
               </div>
               <div className="bg-white-A700 flex flex-row gap-4 items-center justify-start w-auto">
                 <Button
-                  className="flex h-[72px] items-center justify-center w-[72px]"
+                  className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                   shape="circle"
                   color="green_A700_19"
                   size="xl"
@@ -238,7 +237,7 @@ const AboutPage = () => {
                 </Button>
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-gray-900 text-lg w-auto"
+                    className="text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsMedium18"
                   >
                     100% Sucure Payment
@@ -253,7 +252,7 @@ const AboutPage = () => {
               </div>
               <div className="bg-white-A700 flex flex-row gap-4 items-center justify-start w-auto">
                 <Button
-                  className="flex h-[72px] items-center justify-center w-[72px]"
+                  className="flex h-[72px] items-center justify-center rounded-[50%] w-[72px]"
                   shape="circle"
                   color="green_A700_19"
                   size="xl"
@@ -267,7 +266,7 @@ const AboutPage = () => {
                 </Button>
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-gray-900 text-lg w-auto"
+                    className="text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsMedium18"
                   >
                     100% Organic Food
@@ -287,7 +286,7 @@ const AboutPage = () => {
           <div className="flex md:flex-col flex-row gap-[29px] items-start justify-center mb-[-10px] ml-auto mr-36 pb-2.5 w-[77%] z-[1]">
             <div className="flex flex-col items-start justify-start md:mt-0 mt-20 w-[38%] md:w-full">
               <Text
-                className="leading-[120.00%] text-5xl sm:text-[38px] md:text-[44px] text-gray-900 w-full"
+                className="leading-[120.00%] text-5xl sm:text-[38px] md:text-[44px] text-gray-900_01 w-full"
                 size="txtPoppinsSemiBold48"
               >
                 We Delivered, You Enjoy Your Order.
@@ -346,7 +345,7 @@ const AboutPage = () => {
                   />
                 }
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <div className="font-semibold text-base text-left">
@@ -360,11 +359,11 @@ const AboutPage = () => {
               alt="image_Three"
             />
           </div>
-          <div className="bg-gradient5  flex flex-col items-center justify-start mt-auto mx-auto p-[73px] md:px-10 sm:px-5 w-full">
+          <div className="bg-gradient6  flex flex-col items-center justify-start mt-auto mx-auto p-[73px] md:px-10 sm:px-5 w-full">
             <div className="flex flex-col gap-[50px] items-center justify-start mb-1.5 w-[84%] md:w-full">
               <div className="flex flex-col gap-3 items-center justify-start w-auto md:w-full">
                 <Text
-                  className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900 w-auto"
+                  className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_01 w-auto"
                   size="txtPoppinsSemiBold48"
                 >
                   Our Awesome Team
@@ -429,7 +428,7 @@ const AboutPage = () => {
         <div className="bg-gray-100 flex flex-col gap-[50px] items-center justify-center py-[100px] w-auto md:w-full">
           <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] w-full">
             <Text
-              className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900 w-auto"
+              className="text-5xl sm:text-[38px] md:text-[44px] text-center text-gray-900_01 w-auto"
               size="txtPoppinsSemiBold48"
             >
               Client Testimonail
@@ -480,7 +479,314 @@ const AboutPage = () => {
           src="images/img_companylogo_gray_400.svg"
           alt="companylogo"
         />
-        <Footer className="flex items-center justify-center md:px-5 w-full" />
+        <footer className="flex items-center justify-center md:px-5 w-full">
+          <div className="flex flex-col items-center justify-center w-full">
+            <div className="bg-gray-100_01 flex md:flex-col flex-row md:gap-5 items-center justify-start p-[38px] sm:px-5 w-full">
+              <div className="flex sm:flex-1 flex-col gap-1 items-start justify-start md:ml-[0] ml-[261px] w-auto sm:w-full">
+                <Text
+                  className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
+                  size="txtPoppinsSemiBold24"
+                >
+                  Subcribe our Newsletter
+                </Text>
+                <Text
+                  className="leading-[150.00%] md:max-w-full max-w-md text-gray-500 text-sm"
+                  size="txtPoppinsRegular14"
+                >
+                  Pellentesque eu nibh eget mauris congue mattis mattis nec
+                  tellus. Phasellus imperdiet elit eu magna.
+                </Text>
+              </div>
+              <div className="h-[52px] ml-28 md:ml-[0] relative w-[30%] md:w-full">
+                <Input
+                  name="inputfield"
+                  placeholder="Your email address"
+                  className="!placeholder:text-gray-600 !text-gray-600 p-0 text-base text-left w-full"
+                  wrapClassName="absolute border border-gray-300_01 border-solid inset-y-[0] left-[0] my-auto rounded-[26px] w-[92%]"
+                  type="email"
+                  color="white_A700"
+                  size="xs"
+                  variant="fill"
+                ></Input>
+                <Button
+                  className="absolute cursor-pointer font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
+                  color="green_A700"
+                  size="lg"
+                  variant="fill"
+                >
+                  Subscribe
+                </Button>
+              </div>
+              <div className="flex flex-row gap-2 items-start justify-start ml-10 md:ml-[0] w-auto">
+                <Button
+                  className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                  shape="round"
+                  color="green_A700"
+                  size="lg"
+                  variant="fill"
+                >
+                  <Img
+                    className="h-[18px]"
+                    src="images/img_facebook1.svg"
+                    alt="facebookOne_One"
+                  />
+                </Button>
+                <Button
+                  className="flex h-10 items-center justify-center w-10"
+                  shape="circle"
+                  size="lg"
+                >
+                  <Img
+                    className="h-[18px]"
+                    src="images/img_twitter1.svg"
+                    alt="twitterOne_One"
+                  />
+                </Button>
+                <Img
+                  className="h-10 rounded-[50%] w-10"
+                  src="images/img_user_gray_800.svg"
+                  alt="user"
+                />
+                <Img
+                  className="h-10 rounded-[50%] w-10"
+                  src="images/img_info.svg"
+                  alt="info_One"
+                />
+              </div>
+            </div>
+            <div className="bg-gray-900_01 flex flex-col md:gap-10 gap-[60px] items-start justify-center pt-[60px] md:px-10 sm:px-5 px-[300px] w-auto md:w-full">
+              <div className="flex md:flex-col flex-row md:gap-5 items-center justify-start w-[95%] md:w-full">
+                <div className="flex flex-col gap-4 items-start justify-start w-auto">
+                  <div className="flex flex-row gap-2 items-center justify-start w-auto">
+                    <Img
+                      className="h-8 w-8"
+                      src="images/img_plant1.svg"
+                      alt="plantOne_One"
+                    />
+                    <Text
+                      className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[-0.96px] w-auto"
+                      size="txtPoppinsMedium32"
+                    >
+                      Ecobazar
+                    </Text>
+                  </div>
+                  <Text
+                    className="leading-[150.00%] max-w-[336px] md:max-w-full text-gray-600 text-sm"
+                    size="txtPoppinsRegular14Gray600"
+                  >
+                    Morbi cursus porttitor enim lobortis molestie. Duis gravida
+                    turpis dui, eget bibendum magna congue nec.
+                  </Text>
+                  <div className="flex flex-row gap-4 items-center justify-start w-auto">
+                    <Text
+                      className="bg-gray-900_01 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
+                      size="txtPoppinsMedium14"
+                    >
+                      (219) 555-0114
+                    </Text>
+                    <Text
+                      className="text-base text-gray-600 w-auto"
+                      size="txtPoppinsRegular16"
+                    >
+                      or
+                    </Text>
+                    <Text
+                      className="bg-gray-900_01 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
+                      size="txtPoppinsMedium14"
+                    >
+                      Proxy@gmail.com
+                    </Text>
+                  </div>
+                </div>
+                <div className="flex flex-col gap-5 items-start justify-start ml-28 md:ml-[0] w-auto">
+                  <Text
+                    className="text-base text-white-A700 w-auto"
+                    size="txtPoppinsMedium16"
+                  >
+                    My Account
+                  </Text>
+                  <ul className="flex flex-col gap-3 items-start justify-start w-auto md:w-full common-column-list">
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">My Account</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Order History</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-sm text-white-A700">
+                        <Text size="txtPoppinsRegular14WhiteA700">
+                          Shoping Cart
+                        </Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Wishlist</Text>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[129px] w-auto">
+                  <Text
+                    className="text-base text-white-A700 w-auto"
+                    size="txtPoppinsMedium16"
+                  >
+                    Helps
+                  </Text>
+                  <ul className="flex flex-col gap-3 items-start justify-start w-auto md:w-full common-column-list">
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Contact</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Faqs</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">
+                          Terms & Condition
+                        </Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Privacy Policy</Text>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[95px] w-auto">
+                  <Text
+                    className="text-base text-white-A700 w-auto"
+                    size="txtPoppinsMedium16"
+                  >
+                    Proxy
+                  </Text>
+                  <ul className="flex flex-col gap-3 items-start justify-start w-auto md:w-full common-column-list">
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">About</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Shop</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Product</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Track Order</Text>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+                <div className="flex flex-col gap-5 items-start justify-start md:ml-[0] ml-[141px] w-auto">
+                  <Text
+                    className="text-base text-white-A700 w-auto"
+                    size="txtPoppinsMedium16"
+                  >
+                    Categories
+                  </Text>
+                  <ul className="flex flex-col gap-3 items-start justify-start w-auto md:w-full common-column-list">
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">
+                          Fruit & Vegetables
+                        </Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Meat & Fish</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Bread & Bakery</Text>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="javascript:" className="text-gray-500 text-sm">
+                        <Text size="txtPoppinsRegular14">Beauty & Health</Text>
+                      </a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+              <div className="bg-gray-900_01 flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] py-6 shadow-bs8 w-full">
+                <Text
+                  className="text-gray-600 text-sm w-auto"
+                  size="txtPoppinsRegular14Gray600"
+                >
+                  Ecobazar eCommerce © 2021. All Rights Reserved
+                </Text>
+                <div className="flex flex-row gap-2 items-start justify-start w-auto">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                    <Img
+                      className="h-[13px] my-0.5"
+                      src="images/img_settings.svg"
+                      alt="settings_One"
+                    />
+                  </div>
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                    <Img
+                      className="h-2.5 my-1"
+                      src="images/img_settings_white_a700.svg"
+                      alt="settings_Two"
+                    />
+                  </div>
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+                    <Img
+                      className="h-[18px] mt-2.5"
+                      src="images/img_settings_white_a700_18x39.svg"
+                      alt="settings_Three"
+                    />
+                  </div>
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                    <Img
+                      className="h-[17px]"
+                      src="images/img_user_red_a700.svg"
+                      alt="user_One"
+                    />
+                  </div>
+                  <div className="h-8 relative w-[24%]">
+                    <div className="absolute bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                      <Img
+                        className="h-[11px] mt-1 w-[11px]"
+                        src="images/img_lock1.svg"
+                        alt="lockOne"
+                      />
+                      <Text
+                        className="mb-[9px] ml-0.5 text-[11px] text-white-A700"
+                        size="txtPoppinsRegular11"
+                      >
+                        Secure
+                      </Text>
+                    </div>
+                    <Text
+                      className="absolute bottom-[0] inset-x-[0] mx-auto text-center text-white-A700 text-xs w-max"
+                      size="txtPoppinsSemiBold12"
+                    >
+                      Payment
+                    </Text>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </footer>
       </div>
     </>
   );

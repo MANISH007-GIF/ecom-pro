@@ -25,8 +25,8 @@ const C02HomepageBoxLayoutProduct = (props) => {
             </Text>
             <div className="flex flex-row gap-0.5 items-start justify-start w-auto">
               <Text
-                className="text-base text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.productprice}
               </Text>

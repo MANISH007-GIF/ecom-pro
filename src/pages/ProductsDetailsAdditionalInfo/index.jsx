@@ -82,7 +82,7 @@ const ProductsDetailsAdditionalInfoPage = () => {
                   <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
                     <div className="flex sm:flex-col flex-row gap-2 items-center justify-start w-auto sm:w-full">
                       <Text
-                        className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 w-auto"
+                        className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900_01 w-auto"
                         size="txtPoppinsSemiBold36"
                       >
                         Chinese Cabbage
@@ -181,8 +181,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                   <div className="flex sm:flex-col flex-row sm:gap-10 items-center justify-between max-w-[648px] w-full">
                     <div className="flex flex-row gap-2 items-center justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Brand:
                       </Text>
@@ -202,8 +202,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Share item:
                       </Text>
@@ -212,7 +212,7 @@ const ProductsDetailsAdditionalInfoPage = () => {
                           className="flex h-10 items-center justify-center rounded-[50%] w-10"
                           shape="round"
                           color="green_A700"
-                          size="md"
+                          size="lg"
                           variant="fill"
                         >
                           <Img
@@ -222,9 +222,9 @@ const ProductsDetailsAdditionalInfoPage = () => {
                           />
                         </Button>
                         <Button
-                          className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                          className="flex h-10 items-center justify-center w-10"
                           shape="circle"
-                          size="md"
+                          size="lg"
                         >
                           <Img
                             className="h-[18px]"
@@ -269,7 +269,7 @@ const ProductsDetailsAdditionalInfoPage = () => {
                       </div>
                     }
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <div className="font-semibold text-base text-left">
@@ -293,8 +293,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                 <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
                   <div className="flex flex-row gap-1.5 items-start justify-start w-auto">
                     <Text
-                      className="text-gray-900 text-sm w-auto"
-                      size="txtPoppinsMedium14Gray900"
+                      className="text-gray-900_01 text-sm w-auto"
+                      size="txtPoppinsMedium14Gray90001"
                     >
                       Category:
                     </Text>
@@ -307,8 +307,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                   </div>
                   <div className="flex sm:flex-col flex-row gap-1.5 items-start justify-start w-auto sm:w-full">
                     <Text
-                      className="text-gray-900 text-sm w-auto"
-                      size="txtPoppinsMedium14Gray900"
+                      className="text-gray-900_01 text-sm w-auto"
+                      size="txtPoppinsMedium14Gray90001"
                     >
                       Tag:
                     </Text>
@@ -325,8 +325,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                       Healthy
                     </Text>
                     <Text
-                      className="text-gray-900 text-sm underline w-auto"
-                      size="txtPoppinsRegular14Gray900"
+                      className="text-gray-900_01 text-sm underline w-auto"
+                      size="txtPoppinsRegular14Gray90001"
                     >
                       Chinese
                     </Text>
@@ -360,7 +360,7 @@ const ProductsDetailsAdditionalInfoPage = () => {
                       Descriptions
                     </Button>
                     <Button
-                      className="!text-gray-900 cursor-pointer font-medium min-w-[214px] shadow-bs19 text-base text-center"
+                      className="!text-gray-900_01 cursor-pointer font-medium min-w-[214px] shadow-bs19 text-base text-center"
                       shape="square"
                       color="white_A700"
                       size="xl"
@@ -383,8 +383,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                   <div className="flex sm:flex-1 flex-col gap-3 items-start justify-start w-auto sm:w-full">
                     <div className="flex flex-row gap-[60px] items-start justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Weight:
                       </Text>
@@ -397,8 +397,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex flex-row gap-[72px] items-start justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Color:
                       </Text>
@@ -411,8 +411,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex flex-row gap-[76px] items-start justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Type:
                       </Text>
@@ -425,8 +425,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex flex-row gap-11 items-start justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Category:
                       </Text>
@@ -439,8 +439,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex flex-row gap-[23px] items-start justify-start w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Stock Status:
                       </Text>
@@ -458,8 +458,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     </div>
                     <div className="flex sm:flex-col flex-row sm:gap-5 items-start justify-start w-auto sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Tags:
                       </Text>
@@ -477,16 +477,16 @@ const ProductsDetailsAdditionalInfoPage = () => {
                         Healthy,
                       </Text>
                       <Text
-                        className="text-gray-900 text-sm underline w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm underline w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
-                        <span className="text-gray-900 font-poppins text-left font-normal">
+                        <span className="text-gray-900_01 font-poppins text-left font-normal">
                           {" "}
                         </span>
-                        <span className="text-gray-900 font-poppins text-left font-normal">
+                        <span className="text-gray-900_01 font-poppins text-left font-normal">
                           Chinese
                         </span>
-                        <span className="text-gray-900 font-poppins text-left font-normal">
+                        <span className="text-gray-900_01 font-poppins text-left font-normal">
                           ,
                         </span>
                       </Text>
@@ -535,8 +535,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     />
                     <div className="flex flex-col gap-0.5 items-start justify-center w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsMedium14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsMedium14Gray90001"
                       >
                         64% Discount
                       </Text>
@@ -556,8 +556,8 @@ const ProductsDetailsAdditionalInfoPage = () => {
                     />
                     <div className="flex flex-col gap-0.5 items-start justify-center w-auto">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsMedium14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsMedium14Gray90001"
                       >
                         100% Organic
                       </Text>
@@ -576,7 +576,7 @@ const ProductsDetailsAdditionalInfoPage = () => {
           <div className="flex flex-col gap-[27px] items-center justify-start max-w-[1320px] mt-[74px] mx-auto md:px-5 w-full">
             <div className="flex flex-col items-center justify-between max-w-[1320px] w-full">
               <Text
-                className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900 w-auto"
+                className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold32"
               >
                 Related Products

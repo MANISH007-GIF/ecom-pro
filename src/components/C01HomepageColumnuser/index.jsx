@@ -22,8 +22,8 @@ const C01HomepageColumnuser = (props) => {
             />
             <div className="flex flex-col items-start justify-start w-auto">
               <Text
-                className="text-base text-center text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-center text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.reviewername}
               </Text>

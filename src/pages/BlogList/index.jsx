@@ -33,7 +33,7 @@ const BlogListPage = () => {
                   }
                   shape="round"
                   color="green_A700"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   <div className="font-semibold text-left text-sm">Filter</div>
@@ -60,13 +60,13 @@ const BlogListPage = () => {
                   </div>
                 </div>
                 <Text
-                  className="md:ml-[0] ml-[511px] text-base text-gray-900"
-                  size="txtPoppinsRegular16Gray900"
+                  className="md:ml-[0] ml-[511px] text-base text-gray-900_01"
+                  size="txtPoppinsRegular16Gray90001"
                 >
-                  <span className="text-gray-900 font-poppins text-left font-semibold">
+                  <span className="text-gray-900_01 font-poppins text-left font-semibold">
                     52
                   </span>
-                  <span className="text-gray-900 font-poppins text-left font-normal">
+                  <span className="text-gray-900_01 font-poppins text-left font-normal">
                     {" "}
                   </span>
                   <span className="text-gray-700 font-poppins text-left font-normal">
@@ -99,7 +99,7 @@ const BlogListPage = () => {
                   <div className="bg-white-A700 flex flex-col gap-4 items-start justify-start pb-7 pt-5 w-auto sm:w-full">
                     <div className="flex flex-col items-start justify-start pb-1 w-auto sm:w-full">
                       <Text
-                        className="text-gray-900 text-xl w-auto"
+                        className="text-gray-900_01 text-xl w-auto"
                         size="txtPoppinsMedium20"
                       >
                         Top Categories
@@ -107,8 +107,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Fresh Fruit
                       </Text>
@@ -122,8 +122,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Vegetables
                       </Text>
@@ -137,8 +137,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Cooking
                       </Text>
@@ -152,8 +152,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Snacks
                       </Text>
@@ -167,8 +167,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Beverages
                       </Text>
@@ -182,8 +182,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Beauty & Health
                       </Text>
@@ -197,8 +197,8 @@ const BlogListPage = () => {
                     </div>
                     <div className="flex flex-row items-start justify-between w-[424px] sm:w-full">
                       <Text
-                        className="text-gray-900 text-sm w-auto"
-                        size="txtPoppinsRegular14Gray900"
+                        className="text-gray-900_01 text-sm w-auto"
+                        size="txtPoppinsRegular14Gray90001"
                       >
                         Bread & Bakery
                       </Text>
@@ -215,7 +215,7 @@ const BlogListPage = () => {
                   <div className="bg-white-A700 flex flex-col gap-4 items-start justify-start pb-7 pt-5 w-auto sm:w-full">
                     <div className="flex flex-col items-start justify-start pb-1 w-auto sm:w-full">
                       <Text
-                        className="text-gray-900 text-xl w-auto"
+                        className="text-gray-900_01 text-xl w-auto"
                         size="txtPoppinsMedium20"
                       >
                         Popular Tag
@@ -227,7 +227,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[86px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Healthy
@@ -235,7 +235,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[82px] rounded-[16px] text-center text-sm"
                             color="green_A700"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Low fat
@@ -243,7 +243,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[110px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Vegetarian
@@ -251,7 +251,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[74px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Bread
@@ -261,7 +261,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[97px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Kid foods
@@ -269,7 +269,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[94px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Vitamins
@@ -277,7 +277,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[82px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Snacks
@@ -285,7 +285,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[65px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Tiffin
@@ -295,7 +295,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[68px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Meat
@@ -303,7 +303,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[83px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Launch
@@ -311,7 +311,7 @@ const BlogListPage = () => {
                           <Button
                             className="cursor-pointer min-w-[78px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Dinner
@@ -324,7 +324,7 @@ const BlogListPage = () => {
                   <div className="bg-white-A700 flex flex-col gap-4 items-start justify-start pb-7 pt-5 w-auto sm:w-full">
                     <div className="flex flex-col items-start justify-start pb-1 w-auto sm:w-full">
                       <Text
-                        className="text-gray-900 text-xl w-auto"
+                        className="text-gray-900_01 text-xl w-auto"
                         size="txtPoppinsMedium20"
                       >
                         Our Gallery
@@ -386,7 +386,7 @@ const BlogListPage = () => {
                   <div className="bg-white-A700 flex flex-col gap-4 items-start justify-start pt-5 w-auto sm:w-full">
                     <div className="flex flex-col items-start justify-start w-auto sm:w-full">
                       <Text
-                        className="text-gray-900 text-xl w-auto"
+                        className="text-gray-900_01 text-xl w-auto"
                         size="txtPoppinsMedium20"
                       >
                         Recently Added
@@ -404,8 +404,8 @@ const BlogListPage = () => {
                         />
                         <div className="flex flex-col gap-2 items-start justify-start w-auto">
                           <Text
-                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900"
-                            size="txtPoppinsMedium16"
+                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900_01"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Curabitur porttitor orci eget nequ accumsan.
                           </Text>
@@ -423,8 +423,8 @@ const BlogListPage = () => {
                         />
                         <div className="flex flex-col gap-2 items-start justify-start w-auto">
                           <Text
-                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900"
-                            size="txtPoppinsMedium16"
+                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900_01"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Donec mattis arcu faucibus suscipit viverra.
                           </Text>
@@ -442,8 +442,8 @@ const BlogListPage = () => {
                         />
                         <div className="flex flex-col gap-2 items-start justify-start w-auto">
                           <Text
-                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900"
-                            size="txtPoppinsMedium16"
+                            className="leading-[150.00%] max-w-[312px] md:max-w-full text-base text-gray-900_01"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Quisque posuere tempus rutrum. Integer velit ex.
                           </Text>
@@ -464,18 +464,18 @@ const BlogListPage = () => {
                         userimage="images/img_image_64.png"
                         datetext="18"
                         monthtext="Nov"
-                        infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                        descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                       />
                       <C01HomepageBlogcard
                         className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 shadow-bs3 hover:w-full w-full"
-                        image="images/img_image_65.png"
+                        userimage="images/img_image_65.png"
                       />
                       <C01HomepageBlogcard1
                         className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 hover:w-full w-full"
                         userimage="images/img_image_66.png"
                         datetext="18"
                         monthtext="Nov"
-                        infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                        descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                       />
                       <div className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 hover:w-full w-full">
                         <div className="h-[324px] relative w-full">
@@ -488,7 +488,7 @@ const BlogListPage = () => {
                             className="absolute flex h-16 inset-[0] items-center justify-center m-auto rounded-[50%] shadow-bs20 w-16"
                             shape="circle"
                             color="white_A700"
-                            size="2xl"
+                            size="3xl"
                             variant="fill"
                           >
                             <Img
@@ -498,7 +498,7 @@ const BlogListPage = () => {
                           </Button>
                           <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                             <Text
-                              className="text-center text-gray-900 text-xl"
+                              className="text-center text-gray-900_01 text-xl"
                               size="txtPoppinsMedium20"
                             >
                               18
@@ -555,7 +555,7 @@ const BlogListPage = () => {
                               </div>
                             </div>
                             <Text
-                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                               size="txtPoppinsMedium18"
                             >
                               Curabitur porttitor orci eget neque accumsan
@@ -582,7 +582,7 @@ const BlogListPage = () => {
                         userimage="images/img_image_68.png"
                         datetext="18"
                         monthtext="Nov"
-                        infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                        descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                       />
                       <div className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 hover:w-full w-full">
                         <div className="h-[324px] relative w-full">
@@ -593,7 +593,7 @@ const BlogListPage = () => {
                           />
                           <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                             <Text
-                              className="text-center text-gray-900 text-xl"
+                              className="text-center text-gray-900_01 text-xl"
                               size="txtPoppinsMedium20"
                             >
                               18
@@ -650,7 +650,7 @@ const BlogListPage = () => {
                               </div>
                             </div>
                             <Text
-                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                               size="txtPoppinsMedium18"
                             >
                               Curabitur porttitor orci eget neque accumsan
@@ -677,7 +677,7 @@ const BlogListPage = () => {
                         userimage="images/img_image_70.png"
                         datetext="18"
                         monthtext="Nov"
-                        infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                        descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                       />
                       <div className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 hover:w-full w-full">
                         <div className="h-[324px] relative w-full">
@@ -688,7 +688,7 @@ const BlogListPage = () => {
                           />
                           <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                             <Text
-                              className="text-center text-gray-900 text-xl"
+                              className="text-center text-gray-900_01 text-xl"
                               size="txtPoppinsMedium20"
                             >
                               18
@@ -745,7 +745,7 @@ const BlogListPage = () => {
                               </div>
                             </div>
                             <Text
-                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                               size="txtPoppinsMedium18"
                             >
                               Curabitur porttitor orci eget neque accumsan
@@ -772,7 +772,7 @@ const BlogListPage = () => {
                         userimage="images/img_image_72.png"
                         datetext="18"
                         monthtext="Nov"
-                        infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                        descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                       />
                       <div className="hover:cursor-pointer flex flex-1 flex-col items-start justify-start hover:shadow-bs3 hover:w-full w-full">
                         <div className="h-[324px] relative w-full">
@@ -783,7 +783,7 @@ const BlogListPage = () => {
                           />
                           <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                             <Text
-                              className="text-center text-gray-900 text-xl"
+                              className="text-center text-gray-900_01 text-xl"
                               size="txtPoppinsMedium20"
                             >
                               18
@@ -840,7 +840,7 @@ const BlogListPage = () => {
                               </div>
                             </div>
                             <Text
-                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                               size="txtPoppinsMedium18"
                             >
                               Curabitur porttitor orci eget neque accumsan
@@ -875,7 +875,7 @@ const BlogListPage = () => {
               className="flex h-9 items-center justify-center rounded-[50%] w-9"
               shape="circle"
               color="gray_100"
-              size="sm"
+              size="md"
               variant="fill"
             >
               <Img
@@ -887,7 +887,7 @@ const BlogListPage = () => {
             <div className="flex flex-row items-start justify-start w-auto">
               <Text
                 className="bg-green-A700 flex h-9 items-center justify-center rounded-[50%] text-base text-center text-white-A700 w-9"
-                size="txtPoppinsMedium16WhiteA700"
+                size="txtPoppinsMedium16"
               >
                 1
               </Text>
@@ -932,7 +932,7 @@ const BlogListPage = () => {
               className="border border-gray-300_01 border-solid flex h-9 items-center justify-center rotate-[180deg] rounded-[50%] w-9"
               shape="circle"
               color="white_A700"
-              size="sm"
+              size="md"
               variant="fill"
             >
               <Img
@@ -943,9 +943,7 @@ const BlogListPage = () => {
             </Button>
           </div>
         </div>
-        <div className="flex flex-col items-center mt-20 w-full">
-          <Footer className="flex items-center justify-center md:px-5 w-full" />
-        </div>
+        <Footer className="flex flex-col items-center mt-20 w-full" />
       </div>
     </>
   );

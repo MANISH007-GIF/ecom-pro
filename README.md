@@ -24,6 +24,8 @@ Generated with ❤️ from [DhiWise](https://www.dhiwise.com)
 
 This file contains various environment variables that you can configure.
 
+**REACT_APP_GOOGLE_CLIENT_ID** - Your Google Client ID
+
 ## Folder Structure
 
 ```

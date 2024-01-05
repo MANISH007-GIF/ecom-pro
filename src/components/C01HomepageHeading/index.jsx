@@ -7,7 +7,7 @@ const C01HomepageHeading = (props) => {
     <>
       <div className={props.className}>
         <Text
-          className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900 w-auto"
+          className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01 w-auto"
           size="txtPoppinsSemiBold32"
         >
           {props?.text}

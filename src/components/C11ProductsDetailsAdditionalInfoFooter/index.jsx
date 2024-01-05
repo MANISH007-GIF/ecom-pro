@@ -9,8 +9,8 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
         <div className="bg-gray-100_01 flex md:flex-col flex-row md:gap-5 items-center justify-start p-[38px] sm:px-5 w-full">
           <div className="flex sm:flex-1 flex-col gap-1 items-start justify-start md:ml-[0] ml-[261px] w-auto sm:w-full">
             <Text
-              className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
-              size="txtPoppinsSemiBold24Gray900"
+              className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
+              size="txtPoppinsSemiBold24"
             >
               {props?.subcribeournewsOne}
             </Text>
@@ -34,7 +34,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
             <Button
               className="absolute cursor-pointer font-poppins font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               {props?.subscribe}
@@ -45,7 +45,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               className="flex h-10 items-center justify-center rounded-[50%] w-10"
               shape="round"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               <Img
@@ -55,9 +55,9 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               />
             </Button>
             <Button
-              className="flex h-10 items-center justify-center rounded-[50%] w-10"
+              className="flex h-10 items-center justify-center w-10"
               shape="circle"
-              size="md"
+              size="lg"
             >
               <Img
                 className="h-[18px]"
@@ -77,7 +77,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
             />
           </div>
         </div>
-        <div className="bg-gray-900 flex flex-col md:gap-10 gap-[60px] items-start justify-center pt-[60px] md:px-10 sm:px-5 px-[300px] w-auto md:w-full">
+        <div className="bg-gray-900_01 flex flex-col md:gap-10 gap-[60px] items-start justify-center pt-[60px] md:px-10 sm:px-5 px-[300px] w-auto md:w-full">
           <div className="flex md:flex-col flex-row md:gap-10 items-center justify-between w-[95%] md:w-full">
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <div className="flex flex-row gap-2 items-center justify-start w-auto">
@@ -88,7 +88,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
                 />
                 <Text
                   className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[-0.96px] w-auto"
-                  size="txtPoppinsMedium32WhiteA700"
+                  size="txtPoppinsMedium32"
                 >
                   {props?.ecobazarOne}
                 </Text>
@@ -101,8 +101,8 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               </Text>
               <div className="flex flex-row gap-4 items-center justify-start w-auto">
                 <Text
-                  className="bg-gray-900 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
-                  size="txtPoppinsMedium14WhiteA700"
+                  className="bg-gray-900_01 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
+                  size="txtPoppinsMedium14"
                 >
                   {props?.button}
                 </Text>
@@ -113,8 +113,8 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
                   {props?.or}
                 </Text>
                 <Text
-                  className="bg-gray-900 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
-                  size="txtPoppinsMedium14WhiteA700"
+                  className="bg-gray-900_01 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
+                  size="txtPoppinsMedium14"
                 >
                   {props?.email}
                 </Text>
@@ -127,7 +127,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   {props?.myaccount}
                 </Text>
@@ -161,7 +161,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   {props?.helps}
                 </Text>
@@ -195,7 +195,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   {props?.proxy}
                 </Text>
@@ -229,7 +229,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               <div className="flex flex-col gap-5 items-start justify-start w-auto">
                 <Text
                   className="text-base text-white-A700 w-auto"
-                  size="txtPoppinsMedium16WhiteA700"
+                  size="txtPoppinsMedium16"
                 >
                   {props?.categories}
                 </Text>
@@ -262,7 +262,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               </div>
             </List>
           </div>
-          <div className="bg-gray-900 flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] py-6 shadow-bs8 w-full">
+          <div className="bg-gray-900_01 flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] py-6 shadow-bs8 w-full">
             <Text
               className="text-gray-600 text-sm w-auto"
               size="txtPoppinsRegular14Gray600"
@@ -270,28 +270,28 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
               {props?.ecobazarecommerOne}
             </Text>
             <div className="flex flex-row gap-2 items-start justify-start w-auto">
-              <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+              <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                 <Img
                   className="h-[13px] my-0.5"
                   src="images/img_settings.svg"
                   alt="settings"
                 />
               </div>
-              <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+              <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                 <Img
                   className="h-2.5 my-1"
                   src="images/img_settings_white_a700.svg"
                   alt="settings_One"
                 />
               </div>
-              <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+              <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
                 <Img
                   className="h-[18px] mt-2.5"
                   src="images/img_settings_white_a700_18x39.svg"
                   alt="settings_Two"
                 />
               </div>
-              <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+              <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                 <Img
                   className="h-[17px]"
                   src="images/img_user_red_a700.svg"
@@ -299,7 +299,7 @@ const C11ProductsDetailsAdditionalInfoFooter = (props) => {
                 />
               </div>
               <div className="h-8 relative w-[24%]">
-                <div className="absolute bg-gray-900 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                <div className="absolute bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
                   <Img
                     className="h-[11px] mt-1 w-[11px]"
                     src="images/img_lock1.svg"

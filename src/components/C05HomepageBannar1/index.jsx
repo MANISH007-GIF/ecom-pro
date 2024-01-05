@@ -16,7 +16,7 @@ const C05HomepageBannar1 = (props) => {
             <div className="flex flex-col gap-2 items-start justify-start w-auto">
               <Text
                 className="text-sm text-white-A700 tracking-[0.42px] uppercase w-auto"
-                size="txtPoppinsMedium14WhiteA700"
+                size="txtPoppinsMedium14"
               >
                 {props?.saleofweektext}
               </Text>
@@ -33,7 +33,7 @@ const C05HomepageBannar1 = (props) => {
                   className="text-center text-white-A700 text-xl w-auto"
                   size="txtPoppinsRegular20"
                 >
-                  {props?.zerodaystext}
+                  {props?.zerotext}
                 </Text>
                 <Text
                   className="text-center text-white-A700_99 text-xs tracking-[0.36px] uppercase w-auto"
@@ -53,7 +53,7 @@ const C05HomepageBannar1 = (props) => {
                   className="text-center text-white-A700 text-xl w-auto"
                   size="txtPoppinsRegular20"
                 >
-                  {props?.twohourstext}
+                  {props?.twotext}
                 </Text>
                 <Text
                   className="text-center text-white-A700_99 text-xs tracking-[0.36px] uppercase w-auto"
@@ -73,7 +73,7 @@ const C05HomepageBannar1 = (props) => {
                   className="text-center text-white-A700 text-xl w-auto"
                   size="txtPoppinsRegular20"
                 >
-                  {props?.eighteenminstext}
+                  {props?.eighteentext}
                 </Text>
                 <Text
                   className="text-center text-white-A700_99 text-xs tracking-[0.36px] uppercase w-auto"
@@ -93,7 +93,7 @@ const C05HomepageBannar1 = (props) => {
                   className="text-center text-white-A700 text-xl w-auto"
                   size="txtPoppinsRegular20"
                 >
-                  {props?.fortysixsecstext}
+                  {props?.fortysixtext}
                 </Text>
                 <Text
                   className="text-center text-white-A700_99 text-xs tracking-[0.36px] uppercase w-auto"
@@ -130,16 +130,16 @@ const C05HomepageBannar1 = (props) => {
 C05HomepageBannar1.defaultProps = {
   saleofweektext: "sale off the week",
   salesofyeartext: "Sales of the Year",
-  zerodaystext: "00",
+  zerotext: "00",
   daystext: "Days",
   twenty: ":",
-  twohourstext: "02",
+  twotext: "02",
   hourstext: "Hours",
   twentyone: ":",
-  eighteenminstext: "18",
+  eighteentext: "18",
   minstext: "Mins",
   twentytwo: ":",
-  fortysixsecstext: "46",
+  fortysixtext: "46",
   secstext: "Secs",
 };
 

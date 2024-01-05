@@ -54,8 +54,8 @@ const C18SingleBlogBlogdetail = (props) => {
             </div>
           </div>
           <Text
-            className="leading-[140.00%] max-w-[871px] md:max-w-full md:text-3xl sm:text-[28px] text-[32px] text-gray-900"
-            size="txtPoppinsMedium32Gray900"
+            className="leading-[140.00%] max-w-[871px] md:max-w-full md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01"
+            size="txtPoppinsMedium32Gray90001"
           >
             {props?.maecenastempor}
           </Text>
@@ -68,8 +68,8 @@ const C18SingleBlogBlogdetail = (props) => {
               />
               <div className="flex flex-col gap-[5px] items-start justify-start w-auto">
                 <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtPoppinsMedium16"
+                  className="text-base text-gray-900_01 w-auto"
+                  size="txtPoppinsMedium16Gray90001"
                 >
                   {props?.cameronwilliamsOne}
                 </Text>
@@ -97,9 +97,9 @@ const C18SingleBlogBlogdetail = (props) => {
             </div>
             <div className="flex flex-row gap-1 items-start justify-start w-auto">
               <Button
-                className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="flex h-10 items-center justify-center w-10"
                 shape="circle"
-                size="md"
+                size="lg"
               >
                 <Img
                   className="h-[18px]"
@@ -111,7 +111,7 @@ const C18SingleBlogBlogdetail = (props) => {
                 className="flex h-10 items-center justify-center rounded-[50%] w-10"
                 shape="round"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <Img
@@ -139,7 +139,7 @@ const C18SingleBlogBlogdetail = (props) => {
           </div>
         </div>
         <Text
-          className="leading-[150.00%] mt-6 text-gray-900 text-xl w-full"
+          className="leading-[150.00%] mt-6 text-gray-900_01 text-xl w-full"
           size="txtPoppinsMedium20"
         >
           {props?.description}
@@ -207,7 +207,7 @@ const C18SingleBlogBlogdetail = (props) => {
                 }
                 shape="round"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <div className="font-poppins font-semibold text-left text-sm">
@@ -215,7 +215,7 @@ const C18SingleBlogBlogdetail = (props) => {
                 </div>
               </Button>
             </div>
-            <div className="bg-gray-900 flex flex-col h-[91px] items-center justify-start mb-[15px] mt-[19px] p-3.5 rounded-[45px] w-[91px]">
+            <div className="bg-gray-900_01 flex flex-col h-[91px] items-center justify-start mb-[15px] mt-[19px] p-3.5 rounded-[45px] w-[91px]">
               <div className="flex flex-col gap-0.5 items-center justify-center w-auto">
                 <div className="md:h-[33px] h-[43px] relative w-full">
                   <Text

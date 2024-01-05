@@ -131,12 +131,12 @@ const Homepage3Page = () => {
                   <div className="flex flex-col items-start justify-start w-full">
                     <Text
                       className="md:ml-[0] ml-[5px] text-center text-green-A700 text-sm tracking-[0.28px] uppercase"
-                      size="txtPoppinsMedium14"
+                      size="txtPoppinsMedium14GreenA700"
                     >
                       Welcome to shopery
                     </Text>
                     <Text
-                      className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900"
+                      className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900_01"
                       size="txtPoppinsSemiBold72"
                     >
                       <>
@@ -148,10 +148,10 @@ const Homepage3Page = () => {
                   </div>
                   <div className="flex flex-col items-start justify-start md:ml-[0] ml-[5px] mt-[25px]">
                     <Text
-                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900"
+                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01"
                       size="txtPoppinsRegular32"
                     >
-                      <span className="text-gray-900 font-poppins text-left font-normal">
+                      <span className="text-gray-900_01 font-poppins text-left font-normal">
                         Sale up to{" "}
                       </span>
                       <span className="text-orange-600 font-poppins text-left font-semibold">
@@ -197,7 +197,7 @@ const Homepage3Page = () => {
                 />
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-center text-gray-900 text-lg w-auto"
+                    className="text-center text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsSemiBold18"
                   >
                     Free Shipping
@@ -218,7 +218,7 @@ const Homepage3Page = () => {
                 />
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-center text-gray-900 text-lg w-auto"
+                    className="text-center text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsSemiBold18"
                   >
                     Great Support 24/7
@@ -239,7 +239,7 @@ const Homepage3Page = () => {
                 />
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-center text-gray-900 text-lg w-auto"
+                    className="text-center text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsSemiBold18"
                   >
                     100% Sucure Payment
@@ -260,7 +260,7 @@ const Homepage3Page = () => {
                 />
                 <div className="flex flex-col gap-2 items-start justify-center w-auto">
                   <Text
-                    className="text-center text-gray-900 text-lg w-auto"
+                    className="text-center text-gray-900_01 text-lg w-auto"
                     size="txtPoppinsSemiBold18"
                   >
                     Money-Back Guarantee
@@ -284,19 +284,19 @@ const Homepage3Page = () => {
                       alt="linkedin_One"
                     />
                     <Text
-                      className="text-green-900 text-xs w-auto"
-                      size="txtPoppinsRegular12Green900"
+                      className="text-green-900_01 text-xs w-auto"
+                      size="txtPoppinsRegular12Green90001"
                     >
                       Store Location: Lincoln- 344, Illinois, Chicago, USA
                     </Text>
                   </div>
                   <div className="flex sm:flex-1 flex-row gap-5 items-center justify-start w-auto sm:w-full">
                     <SelectBox
-                      className="text-center text-green-900 text-xs w-[39%] sm:w-full"
-                      placeholderClassName="text-green-900"
+                      className="text-center text-green-900_01 text-xs w-[39%] sm:w-full"
+                      placeholderClassName="text-green-900_01"
                       indicator={
                         <Img
-                          className="h-[3px] outline-green-900 outline-[0.5px] outline w-[7px]"
+                          className="h-[3px] outline-green-900_01 outline-[0.5px] outline w-[7px]"
                           src="images/img_arrowdown_green_900.svg"
                           alt="arrow_down"
                         />
@@ -309,11 +309,11 @@ const Homepage3Page = () => {
                       size="xs"
                     />
                     <SelectBox
-                      className="text-center text-green-900 text-xs w-[41%] sm:w-full"
-                      placeholderClassName="text-green-900"
+                      className="text-center text-green-900_01 text-xs w-[41%] sm:w-full"
+                      placeholderClassName="text-green-900_01"
                       indicator={
                         <Img
-                          className="h-[3px] outline-green-900 outline-[0.5px] outline w-[7px]"
+                          className="h-[3px] outline-green-900_01 outline-[0.5px] outline w-[7px]"
                           src="images/img_arrowdown_green_900.svg"
                           alt="arrow_down"
                         />
@@ -331,8 +331,8 @@ const Homepage3Page = () => {
                     <div className="flex sm:flex-col flex-row gap-[27px] items-start justify-start w-auto sm:w-full">
                       <div className="flex flex-row gap-1 items-center justify-start w-auto">
                         <Text
-                          className="text-gray-900 text-sm w-auto"
-                          size="txtPoppinsMedium14Gray900"
+                          className="text-gray-900_01 text-sm w-auto"
+                          size="txtPoppinsMedium14Gray90001"
                         >
                           Home
                         </Text>
@@ -398,7 +398,7 @@ const Homepage3Page = () => {
                       />
                       <Text
                         className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 tracking-[-0.96px] w-auto"
-                        size="txtPoppinsMedium32"
+                        size="txtPoppinsMedium32Black900"
                       >
                         Ecobazar
                       </Text>
@@ -411,8 +411,8 @@ const Homepage3Page = () => {
                           alt="call_One"
                         />
                         <Text
-                          className="text-gray-900 text-sm w-auto"
-                          size="txtPoppinsMedium14Gray900"
+                          className="text-gray-900_01 text-sm w-auto"
+                          size="txtPoppinsMedium14Gray90001"
                         >
                           (219) 555-0114
                         </Text>
@@ -513,12 +513,12 @@ const Homepage3Page = () => {
                       <div className="flex flex-col items-start justify-start w-full">
                         <Text
                           className="md:ml-[0] ml-[5px] text-center text-green-A700 text-sm tracking-[0.28px] uppercase"
-                          size="txtPoppinsMedium14"
+                          size="txtPoppinsMedium14GreenA700"
                         >
                           Welcome to shopery
                         </Text>
                         <Text
-                          className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900"
+                          className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900_01"
                           size="txtPoppinsSemiBold72"
                         >
                           <>
@@ -530,10 +530,10 @@ const Homepage3Page = () => {
                       </div>
                       <div className="flex flex-col items-start justify-start md:ml-[0] ml-[5px] mt-[25px]">
                         <Text
-                          className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900"
+                          className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01"
                           size="txtPoppinsRegular32"
                         >
-                          <span className="text-gray-900 font-poppins text-left font-normal">
+                          <span className="text-gray-900_01 font-poppins text-left font-normal">
                             Sale up to{" "}
                           </span>
                           <span className="text-orange-600 font-poppins text-left font-semibold">
@@ -557,7 +557,7 @@ const Homepage3Page = () => {
                           />
                         }
                         color="green_A700"
-                        size="md"
+                        size="lg"
                         variant="fill"
                       >
                         <div className="font-semibold text-base text-left">
@@ -576,7 +576,7 @@ const Homepage3Page = () => {
                 <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                   <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Featured Products
@@ -682,7 +682,7 @@ const Homepage3Page = () => {
                     <div
                       className="absolute bg-cover bg-no-repeat flex md:h-[226px] h-[434px] inset-[0] justify-end m-auto sm:pr-5 pr-[33px] py-[33px] w-full"
                       style={{
-                        backgroundImage: "url('images/img_group185.svg')",
+                        backgroundImage: "url('images/img_group2577.svg')",
                       }}
                     >
                       <div className="h-[207px] md:h-[226px] mb-[19px] mt-auto w-[77%]">
@@ -739,7 +739,7 @@ const Homepage3Page = () => {
                             </Text>
                             <Text
                               className="text-sm text-white-A700 w-auto"
-                              size="txtPoppinsMedium14WhiteA700"
+                              size="txtPoppinsMedium14"
                             >
                               50%
                             </Text>
@@ -757,8 +757,8 @@ const Homepage3Page = () => {
                             </Text>
                             <div className="flex flex-row gap-0.5 items-start justify-start w-auto">
                               <Text
-                                className="text-base text-gray-900 w-auto"
-                                size="txtPoppinsMedium16"
+                                className="text-base text-gray-900_01 w-auto"
+                                size="txtPoppinsMedium16Gray90001"
                               >
                                 $14.99
                               </Text>
@@ -771,7 +771,7 @@ const Homepage3Page = () => {
                             </div>
                           </div>
                           <Button
-                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] rounded-[50%] w-10"
+                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] w-10"
                             shape="circle"
                             color="gray_100"
                             size="md"
@@ -812,15 +812,15 @@ const Homepage3Page = () => {
                             </Text>
                             <div className="flex flex-col items-start justify-start w-auto">
                               <Text
-                                className="text-base text-gray-900 w-auto"
-                                size="txtPoppinsMedium16"
+                                className="text-base text-gray-900_01 w-auto"
+                                size="txtPoppinsMedium16Gray90001"
                               >
                                 $14.99
                               </Text>
                             </div>
                           </div>
                           <Button
-                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] rounded-[50%] w-10"
+                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] w-10"
                             shape="circle"
                             color="gray_100"
                             size="md"
@@ -850,7 +850,7 @@ const Homepage3Page = () => {
                           />
                           <div className="absolute flex flex-col gap-1.5 items-center justify-start right-[2%] top-[2%] w-[13%] md:w-full">
                             <Button
-                              className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                              className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                               shape="circle"
                               color="white_A700"
                               size="md"
@@ -863,7 +863,7 @@ const Homepage3Page = () => {
                               />
                             </Button>
                             <Button
-                              className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                              className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                               shape="circle"
                               color="white_A700"
                               size="md"
@@ -889,8 +889,8 @@ const Homepage3Page = () => {
                             </Text>
                             <div className="flex flex-col items-start justify-start w-auto">
                               <Text
-                                className="text-base text-gray-900 w-auto"
-                                size="txtPoppinsMedium16"
+                                className="text-base text-gray-900_01 w-auto"
+                                size="txtPoppinsMedium16Gray90001"
                               >
                                 $14.99
                               </Text>
@@ -938,15 +938,15 @@ const Homepage3Page = () => {
                             </Text>
                             <div className="flex flex-col items-start justify-start w-auto">
                               <Text
-                                className="text-base text-gray-900 w-auto"
-                                size="txtPoppinsMedium16"
+                                className="text-base text-gray-900_01 w-auto"
+                                size="txtPoppinsMedium16Gray90001"
                               >
                                 $14.99
                               </Text>
                             </div>
                           </div>
                           <Button
-                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] rounded-[50%] w-10"
+                            className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] w-10"
                             shape="circle"
                             color="gray_100"
                             size="md"
@@ -977,13 +977,13 @@ const Homepage3Page = () => {
             </div>
             <div className="flex flex-col items-center justify-start mt-auto mx-auto w-full">
               <div className="flex md:h-[1136px] h-[459px] sm:h-[510px] justify-end relative w-full">
-                <div className="bg-gradient2  flex flex-col h-full items-center justify-end mt-auto mx-auto p-[27px] sm:px-5 shadow-bs5 w-full">
+                <div className="bg-gradient3  flex flex-col h-full items-center justify-end mt-auto mx-auto p-[27px] sm:px-5 shadow-bs5 w-full">
                   <div className="flex flex-col items-center justify-start mt-[50px] w-4/5 md:w-full">
                     <div className="flex flex-col gap-[30px] items-center justify-start w-full">
                       <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                         <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                           <Text
-                            className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                            className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                             size="txtPoppinsSemiBold40"
                           >
                             Shop by Top Categories
@@ -1025,7 +1025,7 @@ const Homepage3Page = () => {
                           <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start pb-6 pt-8 rounded-md hover:shadow-bs2 shadow-bs2 w-auto hover:w-full">
                             <Img
                               className="h-20 w-20"
-                              src="images/img_vegetable.svg"
+                              src="images/img_salad_1_white_a700.svg"
                               alt="vegetable"
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
@@ -1051,7 +1051,7 @@ const Homepage3Page = () => {
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                               <Text
-                                className="text-center text-gray-900 text-lg w-auto"
+                                className="text-center text-gray-900_01 text-lg w-auto"
                                 size="txtPoppinsMedium18"
                               >
                                 Fresh Fruit
@@ -1072,7 +1072,7 @@ const Homepage3Page = () => {
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                               <Text
-                                className="text-center text-gray-900 text-lg w-auto"
+                                className="text-center text-gray-900_01 text-lg w-auto"
                                 size="txtPoppinsMedium18"
                               >
                                 Fish
@@ -1093,7 +1093,7 @@ const Homepage3Page = () => {
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                               <Text
-                                className="text-center text-gray-900 text-lg w-auto"
+                                className="text-center text-gray-900_01 text-lg w-auto"
                                 size="txtPoppinsMedium18"
                               >
                                 Meat
@@ -1109,12 +1109,12 @@ const Homepage3Page = () => {
                           <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start pb-6 pt-8 rounded-md hover:shadow-bs2 w-auto hover:w-full">
                             <Img
                               className="h-20 w-20"
-                              src="images/img_vegetable.svg"
+                              src="images/img_salad_1_white_a700.svg"
                               alt="softdrinkOne"
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                               <Text
-                                className="text-center text-gray-900 text-lg w-auto"
+                                className="text-center text-gray-900_01 text-lg w-auto"
                                 size="txtPoppinsMedium18"
                               >
                                 Water and Drinks
@@ -1142,7 +1142,7 @@ const Homepage3Page = () => {
                             />
                             <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                               <Text
-                                className="text-center text-gray-900 text-lg w-auto"
+                                className="text-center text-gray-900_01 text-lg w-auto"
                                 size="txtPoppinsMedium18"
                               >
                                 Snacks
@@ -1185,7 +1185,7 @@ const Homepage3Page = () => {
               <div className="flex flex-col gap-[26px] h-full items-start justify-start ml-auto mr-[261px] my-auto w-auto">
                 <div className="flex flex-col items-center justify-start">
                   <Text
-                    className="leading-[120.00%] sm:text-4xl md:text-[38px] text-[40px] text-gray-900"
+                    className="leading-[120.00%] sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01"
                     size="txtPoppinsSemiBold40"
                   >
                     <>
@@ -1205,7 +1205,7 @@ const Homepage3Page = () => {
                         className="flex h-6 items-center justify-center rounded-[50%] w-6"
                         shape="circle"
                         color="green_A700"
-                        size="sm"
+                        size="xs"
                         variant="fill"
                       >
                         <Img
@@ -1215,7 +1215,7 @@ const Homepage3Page = () => {
                         />
                       </Button>
                       <Text
-                        className="text-gray-900 text-lg w-auto"
+                        className="text-gray-900_01 text-lg w-auto"
                         size="txtPoppinsMedium18"
                       >
                         Healthy & natural food for lovers of healthy food.
@@ -1238,7 +1238,7 @@ const Homepage3Page = () => {
                         className="flex h-6 items-center justify-center rounded-[50%] w-6"
                         shape="circle"
                         color="green_A700"
-                        size="sm"
+                        size="xs"
                         variant="fill"
                       >
                         <Img
@@ -1248,7 +1248,7 @@ const Homepage3Page = () => {
                         />
                       </Button>
                       <Text
-                        className="text-gray-900 text-lg w-auto"
+                        className="text-gray-900_01 text-lg w-auto"
                         size="txtPoppinsMedium18"
                       >
                         Every day fresh and quality products for you.
@@ -1277,7 +1277,7 @@ const Homepage3Page = () => {
                     />
                   }
                   color="green_A700"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   <div className="font-semibold text-base text-left">
@@ -1287,7 +1287,7 @@ const Homepage3Page = () => {
               </div>
               <div
                 className="absolute bg-cover bg-no-repeat flex flex-col h-max inset-[0] items-start justify-center m-auto pb-[45px] md:px-10 sm:px-5 px-[45px] w-full"
-                style={{ backgroundImage: "url('images/img_group184.png')" }}
+                style={{ backgroundImage: "url('images/img_group2576.png')" }}
               >
                 <div className="flex md:flex-col flex-row gap-6 items-start justify-start md:ml-[0] ml-[190px] w-[46%] md:w-full">
                   <div className="md:h-[424px] h-[488px] mb-6 relative w-[43%] md:w-full">
@@ -1427,7 +1427,7 @@ const Homepage3Page = () => {
                             <div className="flex flex-col gap-2 items-start justify-start w-auto">
                               <Text
                                 className="text-sm text-white-A700 tracking-[0.42px] uppercase w-auto"
-                                size="txtPoppinsMedium14WhiteA700"
+                                size="txtPoppinsMedium14"
                               >
                                 100% Organic
                               </Text>
@@ -1448,7 +1448,7 @@ const Homepage3Page = () => {
                               <Button
                                 className="cursor-pointer font-medium min-w-[62px] rounded-[5px] text-base text-center"
                                 color="orange_600"
-                                size="sm"
+                                size="xs"
                                 variant="fill"
                               >
                                 $11.99
@@ -1466,7 +1466,7 @@ const Homepage3Page = () => {
                             }
                             shape="round"
                             color="green_A700"
-                            size="md"
+                            size="lg"
                             variant="fill"
                           >
                             <div className="font-semibold text-left text-sm">
@@ -1486,7 +1486,7 @@ const Homepage3Page = () => {
                             <div className="flex flex-col gap-2 items-start justify-start w-auto">
                               <Text
                                 className="text-sm text-white-A700 tracking-[0.42px] uppercase w-auto"
-                                size="txtPoppinsMedium14WhiteA700"
+                                size="txtPoppinsMedium14"
                               >
                                 sale off the week
                               </Text>
@@ -1585,7 +1585,7 @@ const Homepage3Page = () => {
                             }
                             shape="round"
                             color="green_A700"
-                            size="md"
+                            size="lg"
                             variant="fill"
                           >
                             <div className="font-semibold text-left text-sm">
@@ -1620,7 +1620,7 @@ const Homepage3Page = () => {
                           <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                             <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                               <Text
-                                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                                 size="txtPoppinsSemiBold40"
                               >
                                 Best Seller Products
@@ -1655,7 +1655,7 @@ const Homepage3Page = () => {
                                 />
                                 <div className="absolute flex flex-col gap-1.5 items-center justify-start right-[6%] top-[6%] w-[17%]">
                                   <Button
-                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                     shape="circle"
                                     color="white_A700"
                                     size="md"
@@ -1668,7 +1668,7 @@ const Homepage3Page = () => {
                                     />
                                   </Button>
                                   <Button
-                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                     shape="circle"
                                     color="white_A700"
                                     size="md"
@@ -1692,8 +1692,8 @@ const Homepage3Page = () => {
                                   </Text>
                                   <div className="flex flex-col items-start justify-start w-auto">
                                     <Text
-                                      className="text-base text-gray-900 w-auto"
-                                      size="txtPoppinsMedium16"
+                                      className="text-base text-gray-900_01 w-auto"
+                                      size="txtPoppinsMedium16Gray90001"
                                     >
                                       $14.99
                                     </Text>
@@ -1737,8 +1737,8 @@ const Homepage3Page = () => {
                                   </Text>
                                   <div className="flex flex-col items-start justify-start w-auto">
                                     <Text
-                                      className="text-base text-gray-900 w-auto"
-                                      size="txtPoppinsMedium16"
+                                      className="text-base text-gray-900_01 w-auto"
+                                      size="txtPoppinsMedium16Gray90001"
                                     >
                                       $14.99
                                     </Text>
@@ -1750,7 +1750,7 @@ const Homepage3Page = () => {
                                   alt="close"
                                 />
                                 <Button
-                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] rounded-[50%] w-10"
+                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] w-10"
                                   shape="circle"
                                   color="gray_100"
                                   size="md"
@@ -1782,8 +1782,8 @@ const Homepage3Page = () => {
                                   </Text>
                                   <div className="flex flex-col items-start justify-start w-auto">
                                     <Text
-                                      className="text-base text-gray-900 w-auto"
-                                      size="txtPoppinsMedium16"
+                                      className="text-base text-gray-900_01 w-auto"
+                                      size="txtPoppinsMedium16Gray90001"
                                     >
                                       $14.99
                                     </Text>
@@ -1795,7 +1795,7 @@ const Homepage3Page = () => {
                                   alt="close"
                                 />
                                 <Button
-                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] rounded-[50%] w-10"
+                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] w-10"
                                   shape="circle"
                                   color="gray_100"
                                   size="md"
@@ -1818,7 +1818,7 @@ const Homepage3Page = () => {
                                 />
                                 <div className="absolute flex flex-col gap-1.5 items-center justify-start right-[6%] top-[6%] w-[17%]">
                                   <Button
-                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                     shape="circle"
                                     color="white_A700"
                                     size="md"
@@ -1831,7 +1831,7 @@ const Homepage3Page = () => {
                                     />
                                   </Button>
                                   <Button
-                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                    className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                     shape="circle"
                                     color="white_A700"
                                     size="md"
@@ -1855,8 +1855,8 @@ const Homepage3Page = () => {
                                   </Text>
                                   <div className="flex flex-col items-start justify-start w-auto">
                                     <Text
-                                      className="text-base text-gray-900 w-auto"
-                                      size="txtPoppinsMedium16"
+                                      className="text-base text-gray-900_01 w-auto"
+                                      size="txtPoppinsMedium16Gray90001"
                                     >
                                       $14.99
                                     </Text>
@@ -1900,8 +1900,8 @@ const Homepage3Page = () => {
                                   </Text>
                                   <div className="flex flex-col items-start justify-start w-auto">
                                     <Text
-                                      className="text-base text-gray-900 w-auto"
-                                      size="txtPoppinsMedium16"
+                                      className="text-base text-gray-900_01 w-auto"
+                                      size="txtPoppinsMedium16Gray90001"
                                     >
                                       $14.99
                                     </Text>
@@ -1913,7 +1913,7 @@ const Homepage3Page = () => {
                                   alt="close"
                                 />
                                 <Button
-                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] rounded-[50%] w-10"
+                                  className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] w-10"
                                   shape="circle"
                                   color="gray_100"
                                   size="md"
@@ -1941,7 +1941,7 @@ const Homepage3Page = () => {
                             <div className="flex my-auto w-[70%] md:w-full">
                               <div className="flex flex-col gap-4 items-start justify-start my-auto w-auto">
                                 <Text
-                                  className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                  className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                   size="txtPoppinsMedium24"
                                 >
                                   Hot Deals
@@ -1966,8 +1966,8 @@ const Homepage3Page = () => {
                                       </Text>
                                       <div className="flex flex-col items-start justify-start w-auto">
                                         <Text
-                                          className="text-base text-gray-900 w-auto"
-                                          size="txtPoppinsMedium16"
+                                          className="text-base text-gray-900_01 w-auto"
+                                          size="txtPoppinsMedium16Gray90001"
                                         >
                                           $14.99
                                         </Text>
@@ -2014,7 +2014,7 @@ const Homepage3Page = () => {
                                             />
                                           </Button>
                                           <Button
-                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                             shape="circle"
                                             color="white_A700"
                                             size="md"
@@ -2027,7 +2027,7 @@ const Homepage3Page = () => {
                                             />
                                           </Button>
                                           <Button
-                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                             shape="circle"
                                             color="white_A700"
                                             size="md"
@@ -2055,7 +2055,7 @@ const Homepage3Page = () => {
                                             />
                                           </Button>
                                           <Button
-                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                             shape="circle"
                                             color="white_A700"
                                             size="md"
@@ -2068,7 +2068,7 @@ const Homepage3Page = () => {
                                             />
                                           </Button>
                                           <Button
-                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                                            className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                                             shape="circle"
                                             color="white_A700"
                                             size="md"
@@ -2105,8 +2105,8 @@ const Homepage3Page = () => {
                                       </Text>
                                       <div className="flex flex-col items-start justify-start w-auto">
                                         <Text
-                                          className="text-base text-gray-900 w-auto"
-                                          size="txtPoppinsMedium16"
+                                          className="text-base text-gray-900_01 w-auto"
+                                          size="txtPoppinsMedium16Gray90001"
                                         >
                                           $14.99
                                         </Text>
@@ -2122,7 +2122,7 @@ const Homepage3Page = () => {
                               </div>
                               <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                                 <Text
-                                  className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                  className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                   size="txtPoppinsMedium24"
                                 >
                                   Best Seller
@@ -2151,8 +2151,8 @@ const Homepage3Page = () => {
                                         </Text>
                                         <div className="flex flex-col items-start justify-start w-auto">
                                           <Text
-                                            className="text-base text-gray-900 w-auto"
-                                            size="txtPoppinsMedium16"
+                                            className="text-base text-gray-900_01 w-auto"
+                                            size="txtPoppinsMedium16Gray90001"
                                           >
                                             $14.99
                                           </Text>
@@ -2185,8 +2185,8 @@ const Homepage3Page = () => {
                                         </Text>
                                         <div className="flex flex-row gap-0.5 items-start justify-start w-auto">
                                           <Text
-                                            className="text-base text-gray-900 w-auto"
-                                            size="txtPoppinsMedium16"
+                                            className="text-base text-gray-900_01 w-auto"
+                                            size="txtPoppinsMedium16Gray90001"
                                           >
                                             $14.99
                                           </Text>
@@ -2225,8 +2225,8 @@ const Homepage3Page = () => {
                                         </Text>
                                         <div className="flex flex-col items-start justify-start w-auto">
                                           <Text
-                                            className="text-base text-gray-900 w-auto"
-                                            size="txtPoppinsMedium16"
+                                            className="text-base text-gray-900_01 w-auto"
+                                            size="txtPoppinsMedium16Gray90001"
                                           >
                                             $14.99
                                           </Text>
@@ -2244,7 +2244,7 @@ const Homepage3Page = () => {
                             </div>
                             <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                               <Text
-                                className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                 size="txtPoppinsMedium24"
                               >
                                 Top Rated
@@ -2273,8 +2273,8 @@ const Homepage3Page = () => {
                                       </Text>
                                       <div className="flex flex-col items-start justify-start w-auto">
                                         <Text
-                                          className="text-base text-gray-900 w-auto"
-                                          size="txtPoppinsMedium16"
+                                          className="text-base text-gray-900_01 w-auto"
+                                          size="txtPoppinsMedium16Gray90001"
                                         >
                                           $14.99
                                         </Text>
@@ -2307,8 +2307,8 @@ const Homepage3Page = () => {
                                       </Text>
                                       <div className="flex flex-row gap-0.5 items-start justify-start w-auto">
                                         <Text
-                                          className="text-base text-gray-900 w-auto"
-                                          size="txtPoppinsMedium16"
+                                          className="text-base text-gray-900_01 w-auto"
+                                          size="txtPoppinsMedium16Gray90001"
                                         >
                                           $14.99
                                         </Text>
@@ -2347,8 +2347,8 @@ const Homepage3Page = () => {
                                       </Text>
                                       <div className="flex flex-col items-start justify-start w-auto">
                                         <Text
-                                          className="text-base text-gray-900 w-auto"
-                                          size="txtPoppinsMedium16"
+                                          className="text-base text-gray-900_01 w-auto"
+                                          size="txtPoppinsMedium16Gray90001"
                                         >
                                           $14.99
                                         </Text>
@@ -2373,19 +2373,19 @@ const Homepage3Page = () => {
                             <div className="absolute flex flex-col gap-5 inset-x-[0] items-center justify-start mx-auto top-[7%] w-auto">
                               <div className="flex flex-col gap-3 items-start justify-start w-auto">
                                 <Text
-                                  className="text-center text-gray-900 text-xs tracking-[0.36px] uppercase w-auto"
-                                  size="txtPoppinsMedium12Gray900"
+                                  className="text-center text-gray-900_01 text-xs tracking-[0.36px] uppercase w-auto"
+                                  size="txtPoppinsMedium12Gray90001"
                                 >
                                   HOt Sale
                                 </Text>
                                 <Text
-                                  className="leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900"
+                                  className="leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900_01"
                                   size="txtPoppinsSemiBold32"
                                 >
-                                  <span className="text-gray-900 font-poppins font-semibold">
+                                  <span className="text-gray-900_01 font-poppins font-semibold">
                                     Save 37%
                                   </span>
-                                  <span className="text-gray-900 font-poppins font-normal">
+                                  <span className="text-gray-900_01 font-poppins font-normal">
                                     <>
                                       {" "}
                                       on
@@ -2406,7 +2406,7 @@ const Homepage3Page = () => {
                                 }
                                 shape="round"
                                 color="white_A700"
-                                size="md"
+                                size="lg"
                                 variant="fill"
                               >
                                 <div className="!text-green-A700 font-semibold text-justify text-sm">
@@ -2475,7 +2475,7 @@ const Homepage3Page = () => {
                       <div
                         className="absolute bg-cover bg-no-repeat flex flex-col h-[62px] items-start justify-end p-2.5 right-[0] top-[0] w-[12%]"
                         style={{
-                          backgroundImage: "url('images/img_group182.png')",
+                          backgroundImage: "url('images/img_group2574.png')",
                         }}
                       >
                         <Img
@@ -2499,7 +2499,7 @@ const Homepage3Page = () => {
                 />
                 <div
                   className="absolute bg-cover bg-no-repeat flex flex-col h-[65px] items-end justify-start left-[0] p-3.5 top-[0] w-[8%]"
-                  style={{ backgroundImage: "url('images/img_group181.svg')" }}
+                  style={{ backgroundImage: "url('images/img_group2573.svg')" }}
                 >
                   <Img
                     className="h-6 mb-2.5"
@@ -2541,7 +2541,7 @@ const Homepage3Page = () => {
                   Blog
                 </Text>
                 <Text
-                  className="absolute bottom-[-1%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900 w-max"
+                  className="absolute bottom-[-1%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900_01 w-max"
                   size="txtPoppinsSemiBold40"
                 >
                   Latest News
@@ -2560,7 +2560,7 @@ const Homepage3Page = () => {
                     />
                     <div className="absolute bg-white-A700 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                       <Text
-                        className="text-center text-gray-900 text-xl"
+                        className="text-center text-gray-900_01 text-xl"
                         size="txtPoppinsMedium20"
                       >
                         18
@@ -2648,7 +2648,7 @@ const Homepage3Page = () => {
                     />
                     <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                       <Text
-                        className="text-center text-gray-900 text-xl"
+                        className="text-center text-gray-900_01 text-xl"
                         size="txtPoppinsMedium20"
                       >
                         23
@@ -2705,7 +2705,7 @@ const Homepage3Page = () => {
                         </div>
                       </div>
                       <Text
-                        className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                        className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                         size="txtPoppinsMedium18"
                       >
                         Curabitur porttitor orci eget neque accumsan venenatis.
@@ -2736,7 +2736,7 @@ const Homepage3Page = () => {
                     />
                     <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
                       <Text
-                        className="text-center text-gray-900 text-xl"
+                        className="text-center text-gray-900_01 text-xl"
                         size="txtPoppinsMedium20"
                       >
                         18
@@ -2793,7 +2793,7 @@ const Homepage3Page = () => {
                         </div>
                       </div>
                       <Text
-                        className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+                        className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
                         size="txtPoppinsMedium18"
                       >
                         Curabitur porttitor orci eget neque accumsan venenatis.
@@ -2818,7 +2818,7 @@ const Homepage3Page = () => {
               </List>
             </div>
           </div>
-          <div className="bg-gradient3  sm:h-[442px] h-[504px] md:h-[945px] pt-[61px] md:px-5 relative w-full">
+          <div className="bg-gradient4  sm:h-[442px] h-[504px] md:h-[945px] pt-[61px] md:px-5 relative w-full">
             <div className="absolute bottom-[0] flex md:flex-col flex-row md:gap-5 items-start justify-start right-[3%] w-[89%]">
               <Img
                 className="h-[111px] sm:h-auto md:mt-0 mt-[368px] object-cover w-[7%] md:w-full"
@@ -2858,8 +2858,8 @@ const Homepage3Page = () => {
                         />
                         <div className="flex flex-col items-start justify-start w-auto">
                           <Text
-                            className="text-base text-center text-gray-900 w-auto"
-                            size="txtPoppinsMedium16"
+                            className="text-base text-center text-gray-900_01 w-auto"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Robert Fox
                           </Text>
@@ -2901,8 +2901,8 @@ const Homepage3Page = () => {
                         />
                         <div className="flex flex-col items-start justify-start w-auto">
                           <Text
-                            className="text-base text-center text-gray-900 w-auto"
-                            size="txtPoppinsMedium16"
+                            className="text-base text-center text-gray-900_01 w-auto"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Dianne Russell
                           </Text>
@@ -2944,8 +2944,8 @@ const Homepage3Page = () => {
                         />
                         <div className="flex flex-col items-start justify-start w-auto">
                           <Text
-                            className="text-base text-center text-gray-900 w-auto"
-                            size="txtPoppinsMedium16"
+                            className="text-base text-center text-gray-900_01 w-auto"
+                            size="txtPoppinsMedium16Gray90001"
                           >
                             Eleanor Pena
                           </Text>
@@ -2981,7 +2981,7 @@ const Homepage3Page = () => {
                   Testimonial
                 </Text>
                 <Text
-                  className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                  className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                   size="txtPoppinsSemiBold40"
                 >
                   What Our Customer Says
@@ -3029,8 +3029,8 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2.5 items-start justify-start w-auto">
                 <Text
-                  className="text-gray-900 text-sm tracking-[0.42px] uppercase w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm tracking-[0.42px] uppercase w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   Our Location
                 </Text>
@@ -3051,8 +3051,8 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2.5 items-start justify-start w-auto">
                 <Text
-                  className="text-gray-900 text-sm tracking-[0.42px] uppercase w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm tracking-[0.42px] uppercase w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   Call Us 24/7
                 </Text>
@@ -3079,8 +3079,8 @@ const Homepage3Page = () => {
               </div>
               <div className="flex flex-col gap-2.5 items-start justify-start w-auto md:w-full">
                 <Text
-                  className="text-gray-900 text-sm tracking-[0.42px] uppercase w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm tracking-[0.42px] uppercase w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   Subscribe Newsletter
                 </Text>
@@ -3099,7 +3099,7 @@ const Homepage3Page = () => {
                     className="absolute cursor-pointer font-semibold h-full inset-y-[0] min-w-[136px] my-auto right-[0] text-center text-sm"
                     shape="round"
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     Subscribe
@@ -3108,7 +3108,7 @@ const Homepage3Page = () => {
               </div>
             </div>
           </div>
-          <div className="bg-gray-900 md:h-[1124px] h-[399px] sm:h-[600px] mt-20 md:px-5 relative w-full">
+          <div className="bg-gray-900_01 md:h-[1124px] h-[399px] sm:h-[600px] mt-20 md:px-5 relative w-full">
             <div className="absolute bottom-[0] flex flex-col inset-x-[0] items-center justify-start mx-auto w-full">
               <div className="flex flex-col md:gap-10 gap-[60px] items-center justify-start w-full">
                 <div className="flex md:flex-col flex-row md:gap-5 items-start justify-start w-[69%] md:w-full">
@@ -3121,7 +3121,7 @@ const Homepage3Page = () => {
                       />
                       <Text
                         className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[-0.96px] w-auto"
-                        size="txtPoppinsMedium32WhiteA700"
+                        size="txtPoppinsMedium32"
                       >
                         Ecobazar
                       </Text>
@@ -3138,7 +3138,7 @@ const Homepage3Page = () => {
                         className="flex h-10 items-center justify-center rounded-[50%] w-10"
                         shape="round"
                         color="green_A700"
-                        size="md"
+                        size="lg"
                         variant="fill"
                       >
                         <Img
@@ -3148,9 +3148,9 @@ const Homepage3Page = () => {
                         />
                       </Button>
                       <Button
-                        className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                        className="flex h-10 items-center justify-center w-10"
                         shape="circle"
-                        size="md"
+                        size="lg"
                       >
                         <Img
                           className="h-[18px]"
@@ -3337,7 +3337,7 @@ const Homepage3Page = () => {
                     </div>
                   </div>
                 </div>
-                <div className="bg-gray-900 flex flex-row items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] py-6 shadow-bs8 w-full">
+                <div className="bg-gray-900_01 flex flex-row items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] py-6 shadow-bs8 w-full">
                   <div className="flex md:flex-col flex-row md:gap-10 items-end justify-between w-full">
                     <Text
                       className="md:mt-0 my-[5px] text-gray-600 text-sm w-auto"
@@ -3346,28 +3346,28 @@ const Homepage3Page = () => {
                       Ecobazar eCommerce © 2021. All Rights Reserved
                     </Text>
                     <div className="flex flex-row gap-2 items-start justify-start w-auto">
-                      <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-[13px] my-0.5"
                           src="images/img_settings.svg"
                           alt="settings_Seven"
                         />
                       </div>
-                      <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-2.5 my-1"
                           src="images/img_settings_white_a700.svg"
                           alt="settings_Eight"
                         />
                       </div>
-                      <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+                      <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
                         <Img
                           className="h-[18px] mt-2.5"
                           src="images/img_settings_white_a700_18x39.svg"
                           alt="settings_Nine"
                         />
                       </div>
-                      <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-[17px]"
                           src="images/img_user_red_a700.svg"
@@ -3375,7 +3375,7 @@ const Homepage3Page = () => {
                         />
                       </div>
                       <div className="h-8 relative w-[24%]">
-                        <div className="absolute bg-gray-900 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                        <div className="absolute bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
                           <Img
                             className="h-[11px] mt-1 w-[11px]"
                             src="images/img_lock1.svg"
@@ -3403,7 +3403,7 @@ const Homepage3Page = () => {
             <div className="absolute flex sm:flex-col flex-row md:gap-10 inset-x-[0] items-start justify-between mx-auto top-[0] w-full">
               <div
                 className="bg-cover bg-no-repeat flex sm:flex-1 flex-col h-[373px] items-start justify-end p-[23px] sm:px-5 w-[17%] sm:w-full"
-                style={{ backgroundImage: "url('images/img_group179.svg')" }}
+                style={{ backgroundImage: "url('images/img_group2571.svg')" }}
               >
                 <Img
                   className="h-[85px] md:h-auto md:ml-[0] ml-[83px] mt-60 object-cover w-[29%]"
@@ -3431,7 +3431,7 @@ const Homepage3Page = () => {
                 </div>
                 <div
                   className="absolute bg-cover bg-no-repeat flex flex-col h-[70px] items-end justify-end p-[3px] right-[7%] top-[0] w-[71px]"
-                  style={{ backgroundImage: "url('images/img_group180.svg')" }}
+                  style={{ backgroundImage: "url('images/img_group2572.svg')" }}
                 >
                   <Img
                     className="h-[9px] mr-2 mt-[54px]"
@@ -3461,7 +3461,7 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsSemiBold18"
                 >
                   Free Shipping
@@ -3482,7 +3482,7 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsSemiBold18"
                 >
                   Great Support 24/7
@@ -3503,7 +3503,7 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsSemiBold18"
                 >
                   100% Sucure Payment
@@ -3524,7 +3524,7 @@ const Homepage3Page = () => {
               />
               <div className="flex flex-col gap-2 items-start justify-center w-auto">
                 <Text
-                  className="text-center text-gray-900 text-lg w-auto"
+                  className="text-center text-gray-900_01 text-lg w-auto"
                   size="txtPoppinsSemiBold18"
                 >
                   Money-Back Guarantee
@@ -3544,7 +3544,7 @@ const Homepage3Page = () => {
                 <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                   <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                     <Text
-                      className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                      className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold40"
                     >
                       Featured Products
@@ -3650,7 +3650,7 @@ const Homepage3Page = () => {
                     <div
                       className="absolute bg-cover bg-no-repeat flex md:h-[226px] h-[434px] inset-[0] justify-end m-auto sm:pr-5 pr-[33px] py-[33px] w-full"
                       style={{
-                        backgroundImage: "url('images/img_group185.svg')",
+                        backgroundImage: "url('images/img_group2577.svg')",
                       }}
                     >
                       <div className="h-[207px] md:h-[226px] mb-[19px] mt-auto w-[77%]">
@@ -3714,13 +3714,13 @@ const Homepage3Page = () => {
             <div className="flex flex-col items-center justify-start mt-auto mx-auto w-full">
               <div className="flex flex-col items-center justify-start w-full">
                 <div className="flex md:h-[1136px] h-[459px] sm:h-[510px] justify-end relative w-full">
-                  <div className="bg-gradient2  flex flex-col h-full items-center justify-end mt-auto mx-auto p-[27px] sm:px-5 shadow-bs5 w-full">
+                  <div className="bg-gradient3  flex flex-col h-full items-center justify-end mt-auto mx-auto p-[27px] sm:px-5 shadow-bs5 w-full">
                     <div className="flex flex-col items-center justify-start mt-[50px] w-4/5 md:w-full">
                       <div className="flex flex-col gap-[30px] items-center justify-start w-full">
                         <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                           <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                             <Text
-                              className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                              className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                               size="txtPoppinsSemiBold40"
                             >
                               Shop by Top Categories
@@ -3762,7 +3762,7 @@ const Homepage3Page = () => {
                             <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start pb-6 pt-8 rounded-md hover:shadow-bs2 shadow-bs2 w-auto hover:w-full">
                               <Img
                                 className="h-20 w-20"
-                                src="images/img_vegetable.svg"
+                                src="images/img_salad_1_white_a700.svg"
                                 alt="vegetable"
                               />
                               <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
@@ -3789,7 +3789,7 @@ const Homepage3Page = () => {
                               />
                               <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                                 <Text
-                                  className="text-center text-gray-900 text-lg w-auto"
+                                  className="text-center text-gray-900_01 text-lg w-auto"
                                   size="txtPoppinsMedium18"
                                 >
                                   Fish
@@ -3810,7 +3810,7 @@ const Homepage3Page = () => {
                               />
                               <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                                 <Text
-                                  className="text-center text-gray-900 text-lg w-auto"
+                                  className="text-center text-gray-900_01 text-lg w-auto"
                                   size="txtPoppinsMedium18"
                                 >
                                   Meat
@@ -3826,12 +3826,12 @@ const Homepage3Page = () => {
                             <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start pb-6 pt-8 rounded-md hover:shadow-bs2 w-auto hover:w-full">
                               <Img
                                 className="h-20 w-20"
-                                src="images/img_vegetable.svg"
+                                src="images/img_salad_1_white_a700.svg"
                                 alt="softdrinkOne"
                               />
                               <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                                 <Text
-                                  className="text-center text-gray-900 text-lg w-auto"
+                                  className="text-center text-gray-900_01 text-lg w-auto"
                                   size="txtPoppinsMedium18"
                                 >
                                   Water and Drinks
@@ -3859,7 +3859,7 @@ const Homepage3Page = () => {
                               />
                               <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                                 <Text
-                                  className="text-center text-gray-900 text-lg w-auto"
+                                  className="text-center text-gray-900_01 text-lg w-auto"
                                   size="txtPoppinsMedium18"
                                 >
                                   Snacks
@@ -3901,7 +3901,7 @@ const Homepage3Page = () => {
                   <div className="flex flex-col gap-[26px] h-full items-start justify-start ml-auto mr-[261px] my-auto w-auto">
                     <div className="flex flex-col items-center justify-start">
                       <Text
-                        className="leading-[120.00%] sm:text-4xl md:text-[38px] text-[40px] text-gray-900"
+                        className="leading-[120.00%] sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01"
                         size="txtPoppinsSemiBold40"
                       >
                         <>
@@ -3921,7 +3921,7 @@ const Homepage3Page = () => {
                             className="flex h-6 items-center justify-center rounded-[50%] w-6"
                             shape="circle"
                             color="green_A700"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             <Img
@@ -3931,7 +3931,7 @@ const Homepage3Page = () => {
                             />
                           </Button>
                           <Text
-                            className="text-gray-900 text-lg w-auto"
+                            className="text-gray-900_01 text-lg w-auto"
                             size="txtPoppinsMedium18"
                           >
                             Healthy & natural food for lovers of healthy food.
@@ -3955,7 +3955,7 @@ const Homepage3Page = () => {
                             className="flex h-6 items-center justify-center rounded-[50%] w-6"
                             shape="circle"
                             color="green_A700"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             <Img
@@ -3965,7 +3965,7 @@ const Homepage3Page = () => {
                             />
                           </Button>
                           <Text
-                            className="text-gray-900 text-lg w-auto"
+                            className="text-gray-900_01 text-lg w-auto"
                             size="txtPoppinsMedium18"
                           >
                             Every day fresh and quality products for you.
@@ -4001,7 +4001,7 @@ const Homepage3Page = () => {
                   <div
                     className="absolute bg-cover bg-no-repeat flex flex-col h-max inset-[0] items-start justify-center m-auto pb-[45px] md:px-10 sm:px-5 px-[45px] w-full"
                     style={{
-                      backgroundImage: "url('images/img_group184.png')",
+                      backgroundImage: "url('images/img_group2576.png')",
                     }}
                   >
                     <div className="flex md:flex-col flex-row gap-6 items-start justify-start md:ml-[0] ml-[190px] w-[46%] md:w-full">
@@ -4170,7 +4170,7 @@ const Homepage3Page = () => {
                                   <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
                                     <div className="flex sm:flex-1 flex-col items-start justify-start w-auto sm:w-full">
                                       <Text
-                                        className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                                        className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                                         size="txtPoppinsSemiBold40"
                                       >
                                         Best Seller Products
@@ -4227,7 +4227,7 @@ const Homepage3Page = () => {
                                     <div className="flex my-auto w-[70%] md:w-full">
                                       <div className="flex flex-col gap-4 items-start justify-start my-auto w-auto">
                                         <Text
-                                          className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                          className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                           size="txtPoppinsMedium24"
                                         >
                                           Hot Deals
@@ -4237,14 +4237,7 @@ const Homepage3Page = () => {
                                           productimage="images/img_image.png"
                                           productname="Green Apple"
                                         />
-                                        <div className="flex flex-col items-center justify-start w-full">
-                                          <C02HomepageBoxLayoutProduct1
-                                            className="md:h-[114px] h-[116px] relative w-[424px] sm:w-full"
-                                            bagtwo="images/img_bag_white_a700.svg"
-                                            eyeoneone="images/img_eye1.svg"
-                                            favoritetwo="images/img_favorite.svg"
-                                          />
-                                        </div>
+                                        <C02HomepageBoxLayoutProduct1 className="flex flex-col items-center justify-start w-full" />
                                         <C02HomepageBoxLayoutProduct
                                           className="md:h-[114px] h-[116px] relative w-[424px] sm:w-full"
                                           productimage="images/img_image_6.png"
@@ -4253,7 +4246,7 @@ const Homepage3Page = () => {
                                       </div>
                                       <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                                         <Text
-                                          className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                          className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                           size="txtPoppinsMedium24"
                                         >
                                           Best Seller
@@ -4279,7 +4272,7 @@ const Homepage3Page = () => {
                                     </div>
                                     <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                                       <Text
-                                        className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                                        className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                                         size="txtPoppinsMedium24"
                                       >
                                         Top Rated
@@ -4306,11 +4299,11 @@ const Homepage3Page = () => {
                                   <C02HomepageBoxLayoutBannar2
                                     className="h-[432px] ml-[-88px] my-auto w-[24%] z-[1]"
                                     startingat2399={
-                                      <Text className="font-semibold leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900">
-                                        <span className="text-gray-900 font-poppins">
+                                      <Text className="font-semibold leading-[120.00%] md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900_01">
+                                        <span className="text-gray-900_01 font-poppins">
                                           Save 37%
                                         </span>
-                                        <span className="text-gray-900 font-poppins font-normal">
+                                        <span className="text-gray-900_01 font-poppins font-normal">
                                           <>
                                             {" "}
                                             on
@@ -4381,7 +4374,7 @@ const Homepage3Page = () => {
                                       className="absolute bg-cover bg-no-repeat flex flex-col h-[62px] items-start justify-end p-2.5 right-[0] top-[0] w-[12%]"
                                       style={{
                                         backgroundImage:
-                                          "url('images/img_group182.png')",
+                                          "url('images/img_group2574.png')",
                                       }}
                                     >
                                       <Img
@@ -4407,7 +4400,7 @@ const Homepage3Page = () => {
                                 className="absolute bg-cover bg-no-repeat flex flex-col h-[65px] items-end justify-start left-[0] p-3.5 top-[0] w-[8%]"
                                 style={{
                                   backgroundImage:
-                                    "url('images/img_group181.svg')",
+                                    "url('images/img_group2573.svg')",
                                 }}
                               >
                                 <Img
@@ -4450,7 +4443,7 @@ const Homepage3Page = () => {
                                 Blog
                               </Text>
                               <Text
-                                className="absolute bottom-[-1%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900 w-max"
+                                className="absolute bottom-[-1%] inset-x-[0] mx-auto sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900_01 w-max"
                                 size="txtPoppinsSemiBold40"
                               >
                                 Latest News
@@ -4464,19 +4457,19 @@ const Homepage3Page = () => {
                               <C01HomepageBlogcard1
                                 className="hover:cursor-pointer flex flex-col items-start justify-start hover:shadow-bs3 w-auto hover:w-full sm:w-full"
                                 datetext="23"
-                                infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                                descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                               />
                               <C01HomepageBlogcard1
                                 className="hover:cursor-pointer flex flex-col items-start justify-start hover:shadow-bs3 w-auto hover:w-full sm:w-full"
                                 userimage="images/img_image_25.png"
                                 datetext="18"
                                 monthtext="Nov"
-                                infotext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
+                                descriptiontext="Curabitur porttitor orci eget neque accumsan venenatis. Nunc fermentum."
                               />
                             </List>
                           </div>
                         </div>
-                        <div className="bg-gradient3  sm:h-[442px] h-[504px] md:h-[945px] pt-[61px] relative w-full">
+                        <div className="bg-gradient4  sm:h-[442px] h-[504px] md:h-[945px] pt-[61px] relative w-full">
                           <div className="absolute bottom-[0] flex md:flex-col flex-row md:gap-5 items-start justify-start right-[3%] w-[89%]">
                             <Img
                               className="h-[111px] sm:h-auto md:mt-0 mt-[368px] object-cover w-[7%] md:w-full"
@@ -4522,7 +4515,7 @@ const Homepage3Page = () => {
                                 Testimonial
                               </Text>
                               <Text
-                                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                                 size="txtPoppinsSemiBold40"
                               >
                                 What Our Customer Says
@@ -4569,7 +4562,7 @@ const Homepage3Page = () => {
                             subscribebuttontext="Subscribe"
                           />
                         </div>
-                        <C05HomepageFooter className="bg-gray-900 flex items-center justify-center mt-20 w-full" />
+                        <C05HomepageFooter className="bg-gray-900_01 flex items-center justify-center mt-20 w-full" />
                       </div>
                     </div>
                   </div>

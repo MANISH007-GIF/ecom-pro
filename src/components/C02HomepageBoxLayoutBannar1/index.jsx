@@ -14,8 +14,8 @@ const C02HomepageBoxLayoutBannar1 = (props) => {
         <div className="absolute flex flex-col gap-4 inset-x-[0] items-center justify-start mx-auto top-[6%] w-auto md:w-full">
           <div className="flex flex-col gap-2 items-center justify-start w-auto md:w-full">
             <Text
-              className="text-center text-gray-900 text-xs tracking-[0.36px] uppercase w-auto"
-              size="txtPoppinsMedium12Gray900"
+              className="text-center text-gray-900_01 text-xs tracking-[0.36px] uppercase w-auto"
+              size="txtPoppinsMedium12Gray90001"
             >
               {props?.summersale}
             </Text>
@@ -37,7 +37,7 @@ const C02HomepageBoxLayoutBannar1 = (props) => {
             }
             shape="round"
             color="white_A700"
-            size="md"
+            size="lg"
             variant="fill"
           >
             <div className="!text-green-A700 font-poppins font-semibold text-justify text-sm">

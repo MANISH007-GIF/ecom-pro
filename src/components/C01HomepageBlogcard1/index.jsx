@@ -14,7 +14,7 @@ const C01HomepageBlogcard1 = (props) => {
           />
           <div className="absolute bg-white-A700_d8 bottom-[7%] flex flex-col h-[58px] items-center justify-start left-[6%] p-[5px] rounded w-[58px]">
             <Text
-              className="text-center text-gray-900 text-xl"
+              className="text-center text-gray-900_01 text-xl"
               size="txtPoppinsMedium20"
             >
               {props?.datetext}
@@ -66,15 +66,15 @@ const C01HomepageBlogcard1 = (props) => {
                   className="text-gray-700 text-sm w-auto"
                   size="txtPoppinsRegular14Gray700"
                 >
-                  {props?.commentscountertext}
+                  {props?.commentscounttext}
                 </Text>
               </div>
             </div>
             <Text
-              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900 text-lg"
+              className="leading-[150.00%] max-w-[376px] md:max-w-full text-gray-900_01 text-lg"
               size="txtPoppinsMedium18"
             >
-              {props?.infotext}
+              {props?.descriptiontext}
             </Text>
           </div>
           <div className="flex flex-row gap-3 items-center justify-start w-auto">
@@ -102,8 +102,8 @@ C01HomepageBlogcard1.defaultProps = {
   monthtext: "Jan",
   categorytext: "Food",
   admintext: "By Admin",
-  commentscountertext: "65 Comments",
-  infotext: "Eget lobortis lorem lacinia. Vivamus pharetra semper,",
+  commentscounttext: "65 Comments",
+  descriptiontext: "Eget lobortis lorem lacinia. Vivamus pharetra semper,",
   readmoretext: "Read More",
 };
 

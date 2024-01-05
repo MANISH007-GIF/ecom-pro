@@ -24,7 +24,7 @@ const C04HomepageProducts = (props) => {
                   </Text>
                   <Text
                     className="text-sm text-white-A700 w-auto"
-                    size="txtPoppinsMedium14WhiteA700"
+                    size="txtPoppinsMedium14"
                   >
                     {props?.fifty}
                   </Text>
@@ -34,7 +34,7 @@ const C04HomepageProducts = (props) => {
                     className="border border-gray-100 border-solid flex h-12 items-center justify-center rounded-[50%] w-12"
                     shape="circle"
                     color="white_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <Img
@@ -47,7 +47,7 @@ const C04HomepageProducts = (props) => {
                     className="border border-gray-100 border-solid flex h-12 items-center justify-center rounded-[50%] w-12"
                     shape="circle"
                     color="white_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <Img
@@ -62,8 +62,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[53px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.greenapple}
                 </Text>
@@ -113,8 +113,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.surjapurmango}
                 </Text>
@@ -158,8 +158,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.redtomatos}
                 </Text>
@@ -203,8 +203,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-[15px] relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[13%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.freshcaulifloweOne}
                 </Text>
@@ -248,8 +248,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.greenlettuce}
                 </Text>
@@ -293,8 +293,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.eggplant}
                 </Text>
@@ -338,8 +338,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-[15px] relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[13%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.greenchilli}
                 </Text>
@@ -383,8 +383,8 @@ const C04HomepageProducts = (props) => {
             <div className="h-[118px] md:h-[52px] p-4 relative w-full">
               <div className="absolute flex flex-col gap-0.5 inset-x-[0] items-start justify-start mx-auto top-[14%] w-auto">
                 <Text
-                  className="text-base text-green-900 w-auto"
-                  size="txtPoppinsRegular16Green900"
+                  className="text-base text-green-900_01 w-auto"
+                  size="txtPoppinsRegular16Green90001"
                 >
                   {props?.eggplant1}
                 </Text>

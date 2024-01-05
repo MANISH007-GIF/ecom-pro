@@ -18,7 +18,7 @@ const C05HomepageFooter = (props) => {
                   />
                   <Text
                     className="md:text-3xl sm:text-[28px] text-[32px] text-white-A700 tracking-[-0.96px] w-auto"
-                    size="txtPoppinsMedium32WhiteA700"
+                    size="txtPoppinsMedium32"
                   >
                     {props?.ecobazarThree}
                   </Text>
@@ -34,7 +34,7 @@ const C05HomepageFooter = (props) => {
                     className="flex h-10 items-center justify-center rounded-[50%] w-10"
                     shape="round"
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <Img
@@ -44,9 +44,9 @@ const C05HomepageFooter = (props) => {
                     />
                   </Button>
                   <Button
-                    className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                    className="flex h-10 items-center justify-center w-10"
                     shape="circle"
-                    size="md"
+                    size="lg"
                   >
                     <Img
                       className="h-[18px]"
@@ -233,7 +233,7 @@ const C05HomepageFooter = (props) => {
                 </div>
               </div>
             </div>
-            <div className="bg-gray-900 flex flex-row items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] py-6 shadow-bs8 w-full">
+            <div className="bg-gray-900_01 flex flex-row items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] py-6 shadow-bs8 w-full">
               <div className="flex md:flex-col flex-row md:gap-10 items-end justify-between w-full">
                 <Text
                   className="md:mt-0 my-[5px] text-gray-600 text-sm w-auto"
@@ -242,28 +242,28 @@ const C05HomepageFooter = (props) => {
                   {props?.copyrighttext}
                 </Text>
                 <div className="flex flex-row gap-2 items-start justify-start w-auto">
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-[13px] my-0.5"
                       src="images/img_settings.svg"
                       alt="settings_Seven"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-2.5 my-1"
                       src="images/img_settings_white_a700.svg"
                       alt="settings_Eight"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
                     <Img
                       className="h-[18px] mt-2.5"
                       src="images/img_settings_white_a700_18x39.svg"
                       alt="settings_Nine"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-[17px]"
                       src="images/img_user_red_a700.svg"
@@ -271,7 +271,7 @@ const C05HomepageFooter = (props) => {
                     />
                   </div>
                   <div className="h-8 relative w-[24%]">
-                    <div className="absolute bg-gray-900 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                    <div className="absolute bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
                       <Img
                         className="h-[11px] mt-1 w-[11px]"
                         src="images/img_lock1.svg"
@@ -299,7 +299,7 @@ const C05HomepageFooter = (props) => {
         <div className="absolute flex sm:flex-col flex-row md:gap-10 inset-x-[0] items-start justify-between mx-auto top-[0] w-full">
           <div
             className="bg-cover bg-no-repeat flex sm:flex-1 flex-col h-[373px] items-start justify-end p-[23px] sm:px-5 w-[17%] sm:w-full"
-            style={{ backgroundImage: "url('images/img_group179.svg')" }}
+            style={{ backgroundImage: "url('images/img_group2571.svg')" }}
           >
             <Img
               className="h-[85px] md:h-auto md:ml-[0] ml-[83px] mt-60 object-cover w-[29%]"
@@ -327,7 +327,7 @@ const C05HomepageFooter = (props) => {
             </div>
             <div
               className="absolute bg-cover bg-no-repeat flex flex-col h-[70px] items-end justify-end p-[3px] right-[7%] top-[0] w-[71px]"
-              style={{ backgroundImage: "url('images/img_group180.svg')" }}
+              style={{ backgroundImage: "url('images/img_group2572.svg')" }}
             >
               <Img
                 className="h-[9px] mr-2 mt-[54px]"

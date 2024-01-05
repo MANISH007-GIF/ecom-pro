@@ -6,7 +6,7 @@ const C02HomepageBoxLayoutFooter = (props) => {
   return (
     <>
       <div className={props.className}>
-        <div className="bg-gray-900 flex md:flex-col flex-row md:gap-10 gap-[74px] items-center justify-start p-[60px] md:px-10 sm:px-5 w-auto md:w-full">
+        <div className="bg-gray-900_01 flex md:flex-col flex-row md:gap-10 gap-[74px] items-center justify-start p-[60px] md:px-10 sm:px-5 w-auto md:w-full">
           <div className="flex sm:flex-col flex-row gap-2 items-center justify-start w-auto sm:w-full">
             <Img
               className="h-14 w-14"
@@ -42,10 +42,10 @@ const C02HomepageBoxLayoutFooter = (props) => {
               <Button
                 className="absolute cursor-pointer font-poppins font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
-                {props?.subscribe}
+                {props?.subscribebutton}
               </Button>
             </div>
             <div className="flex flex-row gap-2 items-start justify-start w-auto">
@@ -53,7 +53,7 @@ const C02HomepageBoxLayoutFooter = (props) => {
                 className="flex h-10 items-center justify-center rounded-[50%] w-10"
                 shape="round"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <Img
@@ -63,9 +63,9 @@ const C02HomepageBoxLayoutFooter = (props) => {
                 />
               </Button>
               <Button
-                className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="flex h-10 items-center justify-center w-10"
                 shape="circle"
-                size="md"
+                size="lg"
               >
                 <Img
                   className="h-[18px]"
@@ -95,22 +95,22 @@ const C02HomepageBoxLayoutFooter = (props) => {
                 alt="plantOne_One"
               />
               <Text
-                className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900 tracking-[-0.96px] w-auto"
-                size="txtPoppinsMedium32Gray900"
+                className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01 tracking-[-0.96px] w-auto"
+                size="txtPoppinsMedium32Gray90001"
               >
-                {props?.ecobazarOne}
+                {props?.ecobazarone}
               </Text>
             </div>
             <Text
               className="leading-[150.00%] max-w-[336px] md:max-w-full text-gray-600 text-sm"
               size="txtPoppinsRegular14Gray600"
             >
-              {props?.morbicursusportOne}
+              {props?.morbicursusportone}
             </Text>
             <div className="flex flex-row gap-4 items-center justify-start w-auto">
               <Text
-                className="bg-gray-100 justify-center py-[5px] text-gray-900 text-shadow-ts text-sm w-auto"
-                size="txtPoppinsMedium14Gray900"
+                className="bg-gray-100 justify-center py-[5px] text-gray-900_01 text-shadow-ts text-sm w-auto"
+                size="txtPoppinsMedium14Gray90001"
               >
                 {props?.button}
               </Text>
@@ -121,8 +121,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
                 {props?.or}
               </Text>
               <Text
-                className="bg-gray-100 justify-center pb-1 pt-[7px] text-gray-900 text-shadow-ts text-sm w-auto"
-                size="txtPoppinsMedium14Gray900"
+                className="bg-gray-100 justify-center pb-1 pt-[7px] text-gray-900_01 text-shadow-ts text-sm w-auto"
+                size="txtPoppinsMedium14Gray90001"
               >
                 {props?.email}
               </Text>
@@ -134,8 +134,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
           >
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <Text
-                className="text-base text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.myaccount}
               </Text>
@@ -144,7 +144,7 @@ const C02HomepageBoxLayoutFooter = (props) => {
                   className="text-gray-700 text-sm w-auto"
                   size="txtPoppinsRegular14Gray700"
                 >
-                  {props?.myaccountOne}
+                  {props?.myaccountone}
                 </Text>
                 <Text
                   className="text-gray-700 text-sm w-auto"
@@ -168,8 +168,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
             </div>
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <Text
-                className="text-base text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.helps}
               </Text>
@@ -202,8 +202,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
             </div>
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <Text
-                className="text-base text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.proxy}
               </Text>
@@ -237,8 +237,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
           </List>
           <div className="flex flex-col gap-4 items-start justify-start w-auto">
             <Text
-              className="text-base text-gray-900 w-auto"
-              size="txtPoppinsMedium16"
+              className="text-base text-gray-900_01 w-auto"
+              size="txtPoppinsMedium16Gray90001"
             >
               {props?.downloadmobile}
             </Text>
@@ -260,8 +260,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
                     {props?.downloadonthe}
                   </Text>
                   <Text
-                    className="text-base text-gray-900 w-[79px]"
-                    size="txtPoppinsMedium16"
+                    className="text-base text-gray-900_01 w-[79px]"
+                    size="txtPoppinsMedium16Gray90001"
                   >
                     {props?.appstore}
                   </Text>
@@ -281,8 +281,8 @@ const C02HomepageBoxLayoutFooter = (props) => {
                     {props?.downloadonthe1}
                   </Text>
                   <Text
-                    className="text-base text-gray-900 w-[97px]"
-                    size="txtPoppinsMedium16"
+                    className="text-base text-gray-900_01 w-[97px]"
+                    size="txtPoppinsMedium16Gray90001"
                   >
                     {props?.googleplay}
                   </Text>
@@ -296,7 +296,7 @@ const C02HomepageBoxLayoutFooter = (props) => {
             className="text-gray-600 text-sm w-auto"
             size="txtPoppinsRegular14Gray600"
           >
-            {props?.copyrighttext}
+            {props?.ecobazarecommer}
           </Text>
           <div className="flex flex-row gap-1 items-center justify-start w-auto">
             <div className="bg-white-A700 border border-blue_gray-100_01 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[18%]">
@@ -328,17 +328,17 @@ const C02HomepageBoxLayoutFooter = (props) => {
                   alt="lockOne"
                 />
                 <Text
-                  className="mb-[9px] ml-0.5 text-[11px] text-gray-900"
-                  size="txtPoppinsRegular11Gray900"
+                  className="mb-[9px] ml-0.5 text-[11px] text-gray-900_01"
+                  size="txtPoppinsRegular11Gray90001"
                 >
                   {props?.secure}
                 </Text>
               </div>
               <Text
-                className="absolute bottom-[0] inset-x-[0] mx-auto text-center text-gray-900 text-xs w-max"
-                size="txtPoppinsSemiBold12Gray900"
+                className="absolute bottom-[0] inset-x-[0] mx-auto text-center text-gray-900_01 text-xs w-max"
+                size="txtPoppinsSemiBold12Gray90001"
               >
-                {props?.paymenttext}
+                {props?.payment}
               </Text>
             </div>
             <div className="bg-white-A700 border border-blue_gray-100_01 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[18%]">
@@ -358,15 +358,15 @@ const C02HomepageBoxLayoutFooter = (props) => {
 C02HomepageBoxLayoutFooter.defaultProps = {
   subcribeournewsOne: "Subcribe our Newsletter",
   pellentesqueeu: "Pellentesque eu nibh eget mauris congue mattis matti.",
-  subscribe: "Subscribe",
-  ecobazarOne: "Ecobazar",
-  morbicursusportOne:
+  subscribebutton: "Subscribe",
+  ecobazarone: "Ecobazar",
+  morbicursusportone:
     "Morbi cursus porttitor enim lobortis molestie. Duis gravida turpis dui, eget bibendum magna congue nec.",
   button: "(219) 555-0114",
   or: "or",
   email: "Proxy@gmail.com",
   myaccount: "My Account",
-  myaccountOne: "My Account",
+  myaccountone: "My Account",
   orderhistory: "Order History",
   shopingcart: "Shoping Cart",
   wishlist: "Wishlist",
@@ -385,9 +385,9 @@ C02HomepageBoxLayoutFooter.defaultProps = {
   appstore: "App Store",
   downloadonthe1: "Download on the",
   googleplay: "Google play",
-  copyrighttext: "Ecobazar eCommerce © 2021. All Rights Reserved",
+  ecobazarecommer: "Ecobazar eCommerce © 2021. All Rights Reserved",
   secure: "Secure",
-  paymenttext: "Payment",
+  payment: "Payment",
 };
 
 export default C02HomepageBoxLayoutFooter;

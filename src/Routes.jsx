@@ -33,6 +33,7 @@ const Homepage2 = React.lazy(() => import("pages/Homepage2"));
 const Homepage1 = React.lazy(() => import("pages/Homepage1"));
 const HomepageBoxLayout = React.lazy(() => import("pages/HomepageBoxLayout"));
 const Homepage = React.lazy(() => import("pages/Homepage"));
+const Thumbnail = React.lazy(() => import("pages/Thumbnail"));
 const ProjectRoutes = () => {
   return (
     <React.Suspense fallback={<>Loading...</>}>
@@ -40,6 +41,7 @@ const ProjectRoutes = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="*" element={<NotFound />} />
+          <Route path="/thumbnail" element={<Thumbnail />} />
           <Route path="/homepage" element={<Homepage />} />
           <Route path="/homepageboxlayout" element={<HomepageBoxLayout />} />
           <Route path="/homepage1" element={<Homepage1 />} />

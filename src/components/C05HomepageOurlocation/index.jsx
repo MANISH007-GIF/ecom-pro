@@ -13,10 +13,10 @@ const C05HomepageOurlocation = (props) => {
         />
         <div className="flex flex-col gap-2.5 items-start justify-start w-auto">
           <Text
-            className="text-gray-900 text-sm tracking-[0.42px] uppercase w-auto"
-            size="txtPoppinsMedium14Gray900"
+            className="text-gray-900_01 text-sm tracking-[0.42px] uppercase w-auto"
+            size="txtPoppinsMedium14Gray90001"
           >
-            {props?.locationtext}
+            {props?.ourlocationtext}
           </Text>
           <Text
             className="leading-[150.00%] max-w-[272px] md:max-w-full text-gray-700 text-sm"
@@ -31,7 +31,7 @@ const C05HomepageOurlocation = (props) => {
 };
 
 C05HomepageOurlocation.defaultProps = {
-  locationtext: "Our Location",
+  ourlocationtext: "Our Location",
   addresstext:
     "1901 Thornridge Cir. Shiloh, Washington DC 20020, United States",
 };

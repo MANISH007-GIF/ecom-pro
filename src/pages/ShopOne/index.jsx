@@ -79,7 +79,7 @@ const ShopOnePage = () => {
                   }
                   shape="round"
                   color="green_A700"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   <div className="font-semibold text-left text-sm">Filter</div>
@@ -106,13 +106,13 @@ const ShopOnePage = () => {
                   </div>
                 </div>
                 <Text
-                  className="md:ml-[0] ml-[621px] text-base text-gray-900"
-                  size="txtPoppinsRegular16Gray900"
+                  className="md:ml-[0] ml-[621px] text-base text-gray-900_01"
+                  size="txtPoppinsRegular16Gray90001"
                 >
-                  <span className="text-gray-900 font-poppins text-left font-semibold">
+                  <span className="text-gray-900_01 font-poppins text-left font-semibold">
                     52
                   </span>
-                  <span className="text-gray-900 font-poppins text-left font-normal">
+                  <span className="text-gray-900_01 font-poppins text-left font-normal">
                     {" "}
                   </span>
                   <span className="text-gray-700 font-poppins text-left font-normal">
@@ -130,11 +130,11 @@ const ShopOnePage = () => {
                     />
                     <div className="absolute flex flex-col gap-[31px] h-max inset-[0] items-start justify-center m-auto w-full">
                       <SelectBox
-                        className="font-medium text-gray-900 text-left text-xl w-full"
-                        placeholderClassName="text-gray-900"
+                        className="font-medium text-gray-900_01 text-left text-xl w-full"
+                        placeholderClassName="text-gray-900_01"
                         indicator={
                           <Img
-                            className="h-1.5 outline-gray-900 outline-[1px] outline w-3"
+                            className="h-1.5 outline-gray-900_01 outline-[1px] outline w-3"
                             src="images/img_arrowdown_gray_900_6x12.svg"
                             alt="arrow_down"
                           />
@@ -183,11 +183,11 @@ const ShopOnePage = () => {
                   <div className="flex flex-col items-center justify-start w-full">
                     <div className="flex flex-col gap-4 items-start justify-center pb-6 w-auto">
                       <SelectBox
-                        className="!text-gray-900 font-medium text-left text-xl w-full"
-                        placeholderClassName="!text-gray-900"
+                        className="!text-gray-900_01 font-medium text-left text-xl w-full"
+                        placeholderClassName="!text-gray-900_01"
                         indicator={
                           <Img
-                            className="h-1.5 outline-gray-900 outline-[1px] outline w-3"
+                            className="h-1.5 outline-gray-900_01 outline-[1px] outline w-3"
                             src="images/img_arrowdown_gray_900_6x12.svg"
                             alt="arrow_down"
                           />
@@ -210,13 +210,13 @@ const ShopOnePage = () => {
                             trackClassName="h-[5px] flex rounded-[3px] w-full"
                           />{" "}
                           <Text
-                            className="text-gray-900 text-sm w-auto"
-                            size="txtPoppinsRegular14Gray900"
+                            className="text-gray-900_01 text-sm w-auto"
+                            size="txtPoppinsRegular14Gray90001"
                           >
                             <span className="text-gray-800 font-poppins text-left font-normal">
                               Price:
                             </span>
-                            <span className="text-gray-900 font-poppins text-left font-medium">
+                            <span className="text-gray-900_01 font-poppins text-left font-medium">
                               {" "}
                               50 — 1,500
                             </span>
@@ -230,10 +230,10 @@ const ShopOnePage = () => {
                     <div className="flex flex-col items-start justify-start w-auto">
                       <SelectBox
                         className="font-medium text-left text-xl w-full"
-                        placeholderClassName="text-gray-900"
+                        placeholderClassName="text-gray-900_01"
                         indicator={
                           <Img
-                            className="h-1.5 outline-gray-900 outline-[1px] outline w-3"
+                            className="h-1.5 outline-gray-900_01 outline-[1px] outline w-3"
                             src="images/img_arrowdown_gray_900_6x12.svg"
                             alt="arrow_down"
                           />
@@ -282,8 +282,8 @@ const ShopOnePage = () => {
                                 alt="starFive"
                               />
                               <Text
-                                className="text-gray-900 text-sm"
-                                size="txtPoppinsRegular14Gray900"
+                                className="text-gray-900_01 text-sm"
+                                size="txtPoppinsRegular14Gray90001"
                               >
                                 {" "}
                                 5.0
@@ -299,7 +299,7 @@ const ShopOnePage = () => {
                             >
                               <Img
                                 className="h-4"
-                                src="images/img_checkmark_white_a700.svg"
+                                src="images/img_check1_white_a700.svg"
                                 alt="checkmark"
                               />
                             </Button>
@@ -330,8 +330,8 @@ const ShopOnePage = () => {
                                 alt="starFive"
                               />
                               <Text
-                                className="text-gray-900 text-sm w-auto"
-                                size="txtPoppinsRegular14Gray900"
+                                className="text-gray-900_01 text-sm w-auto"
+                                size="txtPoppinsRegular14Gray90001"
                               >
                                 {" "}
                                 4.0 & up
@@ -367,8 +367,8 @@ const ShopOnePage = () => {
                                 alt="starFive"
                               />
                               <Text
-                                className="text-gray-900 text-sm w-auto"
-                                size="txtPoppinsRegular14Gray900"
+                                className="text-gray-900_01 text-sm w-auto"
+                                size="txtPoppinsRegular14Gray90001"
                               >
                                 {" "}
                                 3.0 & up
@@ -404,8 +404,8 @@ const ShopOnePage = () => {
                                 alt="starFive"
                               />
                               <Text
-                                className="text-gray-900 text-sm w-auto"
-                                size="txtPoppinsRegular14Gray900"
+                                className="text-gray-900_01 text-sm w-auto"
+                                size="txtPoppinsRegular14Gray90001"
                               >
                                 {" "}
                                 2.0 & up
@@ -441,8 +441,8 @@ const ShopOnePage = () => {
                                 alt="starFive"
                               />
                               <Text
-                                className="text-gray-900 text-sm w-auto"
-                                size="txtPoppinsRegular14Gray900"
+                                className="text-gray-900_01 text-sm w-auto"
+                                size="txtPoppinsRegular14Gray90001"
                               >
                                 {" "}
                                 1.0 & up
@@ -456,11 +456,11 @@ const ShopOnePage = () => {
                   </div>
                   <div className="flex flex-col items-start justify-center pb-[26px] w-auto">
                     <SelectBox
-                      className="!text-gray-900 font-medium text-left text-xl w-full"
-                      placeholderClassName="!text-gray-900"
+                      className="!text-gray-900_01 font-medium text-left text-xl w-full"
+                      placeholderClassName="!text-gray-900_01"
                       indicator={
                         <Img
-                          className="h-1.5 outline-gray-900 outline-[1px] outline w-3"
+                          className="h-1.5 outline-gray-900_01 outline-[1px] outline w-3"
                           src="images/img_arrowdown_gray_900_6x12.svg"
                           alt="arrow_down"
                         />
@@ -479,7 +479,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[86px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Healthy
@@ -487,7 +487,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[82px] rounded-[16px] text-center text-sm"
                             color="green_A700"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Low fat
@@ -495,7 +495,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[110px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Vegetarian
@@ -505,7 +505,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[97px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Kid foods
@@ -513,7 +513,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[94px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Vitamins
@@ -521,7 +521,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[74px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Bread
@@ -531,7 +531,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[68px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Meat
@@ -539,7 +539,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[82px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Snacks
@@ -547,7 +547,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[65px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Tiffin
@@ -557,7 +557,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[83px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Launch
@@ -565,7 +565,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[78px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Dinner
@@ -573,7 +573,7 @@ const ShopOnePage = () => {
                           <Button
                             className="cursor-pointer min-w-[107px] rounded-[16px] text-center text-sm"
                             color="gray_100"
-                            size="sm"
+                            size="xs"
                             variant="fill"
                           >
                             Breackfast
@@ -582,7 +582,7 @@ const ShopOnePage = () => {
                         <Button
                           className="cursor-pointer min-w-[62px] rounded-[16px] text-center text-sm"
                           color="gray_100"
-                          size="sm"
+                          size="xs"
                           variant="fill"
                         >
                           Fruit
@@ -596,7 +596,7 @@ const ShopOnePage = () => {
                   >
                     <div className="flex flex-col gap-0.5 items-center justify-center pt-5 w-auto">
                       <Text
-                        className="md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900 w-auto"
+                        className="md:text-3xl sm:text-[28px] text-[32px] text-center text-gray-900_01 w-auto"
                         size="txtPoppinsSemiBold32"
                       >
                         <span className="text-orange-600 font-poppins font-semibold">
@@ -605,7 +605,7 @@ const ShopOnePage = () => {
                         <span className="md:text-[22px] sm:text-xl text-orange-600 font-poppins text-2xl font-normal">
                           {" "}
                         </span>
-                        <span className="md:text-[22px] sm:text-xl text-gray-900 font-poppins text-2xl font-normal">
+                        <span className="md:text-[22px] sm:text-xl text-gray-900_01 font-poppins text-2xl font-normal">
                           Discount
                         </span>
                       </Text>
@@ -632,7 +632,7 @@ const ShopOnePage = () => {
                   </div>
                   <div className="flex flex-col gap-3 items-start justify-center pt-5 w-auto">
                     <Text
-                      className="text-gray-900 text-xl w-auto"
+                      className="text-gray-900_01 text-xl w-auto"
                       size="txtPoppinsMedium20"
                     >
                       Sale Products
@@ -742,7 +742,7 @@ const ShopOnePage = () => {
               className="flex h-9 items-center justify-center rounded-[50%] w-9"
               shape="circle"
               color="gray_100"
-              size="sm"
+              size="md"
               variant="fill"
             >
               <Img
@@ -754,7 +754,7 @@ const ShopOnePage = () => {
             <div className="flex flex-row items-start justify-start w-auto">
               <Text
                 className="bg-green-A700 flex h-9 items-center justify-center rounded-[50%] text-base text-center text-white-A700 w-9"
-                size="txtPoppinsMedium16WhiteA700"
+                size="txtPoppinsMedium16"
               >
                 1
               </Text>
@@ -799,7 +799,7 @@ const ShopOnePage = () => {
               className="border border-gray-300_01 border-solid flex h-9 items-center justify-center rotate-[180deg] rounded-[50%] w-9"
               shape="circle"
               color="white_A700"
-              size="sm"
+              size="md"
               variant="fill"
             >
               <Img
@@ -810,9 +810,7 @@ const ShopOnePage = () => {
             </Button>
           </div>
         </div>
-        <div className="flex flex-col items-center mt-20 w-full">
-          <Footer className="flex items-center justify-center md:px-5 w-full" />
-        </div>
+        <Footer className="flex flex-col items-center mt-20 w-full" />
       </div>
     </>
   );

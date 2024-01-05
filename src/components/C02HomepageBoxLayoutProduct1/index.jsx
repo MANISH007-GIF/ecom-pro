@@ -38,7 +38,7 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
                 />
               </Button>
               <Button
-                className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                 shape="circle"
                 color="white_A700"
                 size="md"
@@ -47,7 +47,7 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
                 <Img className="h-5" src="images/img_eye1.svg" alt="eyeOne" />
               </Button>
               <Button
-                className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                 shape="circle"
                 color="white_A700"
                 size="md"
@@ -61,7 +61,7 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
               </Button>
             </div>
             <div className="absolute flex flex-row gap-3 h-max inset-[0] items-center justify-between m-auto w-auto">
-              {!!props?.bagtwo ? (
+              {!!props?.bagTwo ? (
                 <Button
                   className="flex h-10 items-center justify-center rounded-[50%] w-10"
                   shape="round"
@@ -69,12 +69,12 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
                   size="md"
                   variant="fill"
                 >
-                  <Img className="h-5" alt="bag_Two" src={props?.bagtwo} />
+                  <Img className="h-5" alt="bag_Two" src={props?.bagTwo} />
                 </Button>
               ) : null}
-              {!!props?.eyeoneone ? (
+              {!!props?.eyeoneOne ? (
                 <Button
-                  className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                  className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                   shape="circle"
                   color="white_A700"
                   size="md"
@@ -83,13 +83,13 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
                   <Img
                     className="h-5"
                     alt="eyeOne_One"
-                    src={props?.eyeoneone}
+                    src={props?.eyeoneOne}
                   />
                 </Button>
               ) : null}
-              {!!props?.favoritetwo ? (
+              {!!props?.favoriteTwo ? (
                 <Button
-                  className="border border-gray-100 border-solid flex h-10 items-center justify-center rounded-[50%] w-10"
+                  className="border border-gray-100 border-solid flex h-10 items-center justify-center w-10"
                   shape="circle"
                   color="white_A700"
                   size="md"
@@ -98,7 +98,7 @@ const C02HomepageBoxLayoutProduct1 = (props) => {
                   <Img
                     className="h-5"
                     alt="favorite_Two"
-                    src={props?.favoritetwo}
+                    src={props?.favoriteTwo}
                   />
                 </Button>
               ) : null}

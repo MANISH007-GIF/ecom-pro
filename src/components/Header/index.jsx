@@ -93,7 +93,7 @@ const Header = (props) => {
             />
             <Text
               className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 tracking-[-0.96px] w-auto"
-              size="txtPoppinsMedium32"
+              size="txtPoppinsMedium32Black900"
             >
               Ecobazar
             </Text>
@@ -115,7 +115,7 @@ const Header = (props) => {
             <Button
               className="cursor-pointer font-poppins font-semibold min-w-[98px] rounded-br-md rounded-tr-md text-center text-sm"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               Search
@@ -165,7 +165,7 @@ const Header = (props) => {
               <div className="flex flex-row gap-1 items-center justify-start">
                 <Text
                   className="text-sm text-white-A700 w-auto"
-                  size="txtPoppinsMedium14WhiteA700"
+                  size="txtPoppinsMedium14"
                 >
                   Home
                 </Text>
@@ -246,7 +246,7 @@ const Header = (props) => {
             <Img className="h-7 w-7" src="images/img_call.svg" alt="call" />
             <Text
               className="text-sm text-white-A700 w-auto"
-              size="txtPoppinsMedium14WhiteA700"
+              size="txtPoppinsMedium14"
             >
               (219) 555-0114
             </Text>

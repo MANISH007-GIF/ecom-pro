@@ -111,7 +111,7 @@ const Homepage2Page = () => {
               />
               <Text
                 className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 tracking-[-0.96px] w-auto"
-                size="txtPoppinsMedium32"
+                size="txtPoppinsMedium32Black900"
               >
                 Ecobazar
               </Text>
@@ -133,7 +133,7 @@ const Homepage2Page = () => {
               <Button
                 className="cursor-pointer font-semibold min-w-[98px] rounded-br-md rounded-tr-md text-center text-sm"
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 Search
@@ -168,8 +168,8 @@ const Homepage2Page = () => {
                     Shopping cart:
                   </Text>
                   <Text
-                    className="text-gray-900 text-sm w-auto"
-                    size="txtPoppinsMedium14Gray900"
+                    className="text-gray-900_01 text-sm w-auto"
+                    size="txtPoppinsMedium14Gray90001"
                   >
                     $57.00
                   </Text>
@@ -189,7 +189,7 @@ const Homepage2Page = () => {
                     />
                     <Text
                       className="text-sm text-white-A700 w-auto"
-                      size="txtPoppinsMedium14WhiteA700"
+                      size="txtPoppinsMedium14"
                     >
                       All Categories
                     </Text>
@@ -206,7 +206,7 @@ const Homepage2Page = () => {
                   <div className="flex flex-row gap-1 items-center justify-start">
                     <Text
                       className="text-green-A700 text-sm w-auto"
-                      size="txtPoppinsMedium14"
+                      size="txtPoppinsMedium14GreenA700"
                     >
                       Home
                     </Text>
@@ -301,8 +301,8 @@ const Homepage2Page = () => {
                 alt="call"
               />
               <Text
-                className="text-gray-900 text-sm w-auto"
-                size="txtPoppinsMedium14Gray900"
+                className="text-gray-900_01 text-sm w-auto"
+                size="txtPoppinsMedium14Gray90001"
               >
                 (219) 555-0114
               </Text>
@@ -329,7 +329,7 @@ const Homepage2Page = () => {
                       </Text>
                       <Text
                         className="text-base text-center text-white-A700 tracking-[0.32px] uppercase w-auto"
-                        size="txtPoppinsMedium16WhiteA700"
+                        size="txtPoppinsMedium16"
                       >
                         off
                       </Text>
@@ -371,7 +371,7 @@ const Homepage2Page = () => {
                       />
                     }
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <div className="font-semibold text-base text-left">
@@ -386,7 +386,7 @@ const Homepage2Page = () => {
                 className="border border-gray-300_03 border-solid flex h-[45px] items-center justify-center rotate-[180deg] w-[45px]"
                 shape="round"
                 color="white_A700"
-                size="lg"
+                size="xl"
                 variant="fill"
               >
                 <Img
@@ -398,7 +398,7 @@ const Homepage2Page = () => {
                 className="border border-gray-300_03 border-solid flex h-[45px] items-center justify-center w-[45px]"
                 shape="round"
                 color="white_A700"
-                size="lg"
+                size="xl"
                 variant="fill"
               >
                 <Img src="images/img_arrowleft_black_900.svg" alt="arrowleft" />
@@ -421,7 +421,7 @@ const Homepage2Page = () => {
               <div className="flex flex-col gap-6 items-center justify-start w-auto sm:w-full">
                 <div className="flex flex-col items-center justify-start w-auto sm:w-full">
                   <Text
-                    className="sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900 w-auto"
+                    className="sm:text-4xl md:text-[38px] text-[40px] text-center text-gray-900_01 w-auto"
                     size="txtPoppinsSemiBold40"
                   >
                     Introducing Our Products
@@ -702,7 +702,7 @@ const Homepage2Page = () => {
                       />
                       <div className="absolute bg-white-A700 bottom-[0] flex flex-col h-[58px] items-center justify-start left-[8%] p-[5px] rounded w-[58px]">
                         <Text
-                          className="text-center text-gray-900 text-xl"
+                          className="text-center text-gray-900_01 text-xl"
                           size="txtPoppinsMedium20"
                         >
                           23
@@ -758,7 +758,7 @@ const Homepage2Page = () => {
                       />
                       <div className="absolute bg-white-A700_a2 bottom-[0] flex flex-col h-[58px] items-center justify-start left-[8%] p-[5px] rounded w-[58px]">
                         <Text
-                          className="text-center text-gray-900 text-xl"
+                          className="text-center text-gray-900_01 text-xl"
                           size="txtPoppinsMedium20"
                         >
                           23
@@ -814,7 +814,7 @@ const Homepage2Page = () => {
                       />
                       <div className="absolute bg-white-A700_a2 bottom-[0] flex flex-col h-[58px] items-center justify-start left-[8%] p-[5px] rounded w-[58px]">
                         <Text
-                          className="text-center text-gray-900 text-xl"
+                          className="text-center text-gray-900_01 text-xl"
                           size="txtPoppinsMedium20"
                         >
                           23
@@ -913,7 +913,7 @@ const Homepage2Page = () => {
                           <Button
                             className="absolute cursor-pointer font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
                             color="green_A700"
-                            size="md"
+                            size="lg"
                             variant="fill"
                           >
                             Subscribe
@@ -946,7 +946,7 @@ const Homepage2Page = () => {
                           <div className="bg-black-900 flex flex-col items-center justify-center py-1.5 shadow-bs14 w-auto">
                             <Text
                               className="text-sm text-white-A700 w-auto"
-                              size="txtPoppinsMedium14WhiteA700"
+                              size="txtPoppinsMedium14"
                             >
                               (219) 555-0114
                             </Text>
@@ -959,7 +959,7 @@ const Homepage2Page = () => {
                           </Text>
                           <Text
                             className="bg-black-900 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
-                            size="txtPoppinsMedium14WhiteA700"
+                            size="txtPoppinsMedium14"
                           >
                             Proxy@gmail.com
                           </Text>
@@ -1216,7 +1216,7 @@ const Homepage2Page = () => {
                         className="flex h-10 items-center justify-center rounded-[50%] w-10"
                         shape="round"
                         color="green_A700"
-                        size="md"
+                        size="lg"
                         variant="fill"
                       >
                         <Img
@@ -1226,9 +1226,9 @@ const Homepage2Page = () => {
                         />
                       </Button>
                       <Button
-                        className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                        className="flex h-10 items-center justify-center w-10"
                         shape="circle"
-                        size="md"
+                        size="lg"
                       >
                         <Img
                           className="h-[18px]"
@@ -1254,28 +1254,28 @@ const Homepage2Page = () => {
                       Shopery eCommerce © 2021. All Rights Reserved
                     </Text>
                     <div className="flex flex-row gap-2 items-start justify-start md:ml-[0] ml-[205px] w-auto">
-                      <div className="bg-black-900 border border-gray-900_01 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-black-900 border border-gray-900_02 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-[13px] my-0.5"
                           src="images/img_settings.svg"
                           alt="settings_Two"
                         />
                       </div>
-                      <div className="bg-black-900 border border-gray-900_01 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-black-900 border border-gray-900_02 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-2.5 my-1"
                           src="images/img_settings_white_a700.svg"
                           alt="settings_Three"
                         />
                       </div>
-                      <div className="bg-black-900 border border-gray-900_01 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+                      <div className="bg-black-900 border border-gray-900_02 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
                         <Img
                           className="h-[18px] mt-2.5"
                           src="images/img_settings_white_a700_18x39.svg"
                           alt="settings_Four"
                         />
                       </div>
-                      <div className="bg-black-900 border border-gray-900_01 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                      <div className="bg-black-900 border border-gray-900_02 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                         <Img
                           className="h-[17px]"
                           src="images/img_user_red_a700.svg"
@@ -1283,7 +1283,7 @@ const Homepage2Page = () => {
                         />
                       </div>
                       <div className="h-8 relative w-[24%]">
-                        <div className="absolute bg-black-900 border border-gray-900_01 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                        <div className="absolute bg-black-900 border border-gray-900_02 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
                           <Img
                             className="h-[11px] mt-1 w-[11px]"
                             src="images/img_lock1_black_900.svg"

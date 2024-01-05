@@ -69,7 +69,7 @@ const ProductQuickViewModal = (props) => {
               <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
                 <div className="flex sm:flex-col flex-row gap-2 items-center justify-start w-auto sm:w-full">
                   <Text
-                    className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900 w-auto"
+                    className="text-4xl sm:text-[32px] md:text-[34px] text-gray-900_01 w-auto"
                     size="txtPoppinsSemiBold36"
                   >
                     Chinese Cabbage
@@ -168,8 +168,8 @@ const ProductQuickViewModal = (props) => {
               <div className="flex sm:flex-col flex-row sm:gap-10 items-center justify-between w-[568px] sm:w-full">
                 <div className="flex flex-row gap-2 items-center justify-start w-auto">
                   <Text
-                    className="text-gray-900 text-sm w-auto"
-                    size="txtPoppinsRegular14Gray900"
+                    className="text-gray-900_01 text-sm w-auto"
+                    size="txtPoppinsRegular14Gray90001"
                   >
                     Brand:
                   </Text>
@@ -189,8 +189,8 @@ const ProductQuickViewModal = (props) => {
                 </div>
                 <div className="flex flex-row gap-2.5 items-center justify-start w-auto">
                   <Text
-                    className="text-gray-900 text-sm w-auto"
-                    size="txtPoppinsRegular14Gray900"
+                    className="text-gray-900_01 text-sm w-auto"
+                    size="txtPoppinsRegular14Gray90001"
                   >
                     Share item:
                   </Text>
@@ -199,7 +199,7 @@ const ProductQuickViewModal = (props) => {
                       className="flex h-10 items-center justify-center rounded-[50%] w-10"
                       shape="round"
                       color="green_A700"
-                      size="md"
+                      size="lg"
                       variant="fill"
                     >
                       <Img
@@ -209,9 +209,9 @@ const ProductQuickViewModal = (props) => {
                       />
                     </Button>
                     <Button
-                      className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                      className="flex h-10 items-center justify-center w-10"
                       shape="circle"
-                      size="md"
+                      size="lg"
                     >
                       <Img
                         className="h-[18px]"
@@ -252,8 +252,8 @@ const ProductQuickViewModal = (props) => {
                   />
                 </div>
                 <Text
-                  className="text-base text-center text-gray-900 w-auto"
-                  size="txtPoppinsRegular16Gray900"
+                  className="text-base text-center text-gray-900_01 w-auto"
+                  size="txtPoppinsRegular16Gray90001"
                 >
                   5
                 </Text>
@@ -277,7 +277,7 @@ const ProductQuickViewModal = (props) => {
                   </div>
                 }
                 color="green_A700"
-                size="md"
+                size="lg"
                 variant="fill"
               >
                 <div className="font-semibold text-base text-left">
@@ -301,8 +301,8 @@ const ProductQuickViewModal = (props) => {
             <div className="flex flex-col gap-3 items-start justify-start w-auto sm:w-full">
               <div className="flex flex-row gap-1.5 items-start justify-start w-auto">
                 <Text
-                  className="text-gray-900 text-sm w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   Category:
                 </Text>
@@ -315,8 +315,8 @@ const ProductQuickViewModal = (props) => {
               </div>
               <div className="flex sm:flex-col flex-row gap-1.5 items-start justify-start w-auto sm:w-full">
                 <Text
-                  className="text-gray-900 text-sm w-auto"
-                  size="txtPoppinsMedium14Gray900"
+                  className="text-gray-900_01 text-sm w-auto"
+                  size="txtPoppinsMedium14Gray90001"
                 >
                   Tag:
                 </Text>
@@ -333,8 +333,8 @@ const ProductQuickViewModal = (props) => {
                   Healthy
                 </Text>
                 <Text
-                  className="text-gray-900 text-sm underline w-auto"
-                  size="txtPoppinsRegular14Gray900"
+                  className="text-gray-900_01 text-sm underline w-auto"
+                  size="txtPoppinsRegular14Gray90001"
                 >
                   Chinese
                 </Text>

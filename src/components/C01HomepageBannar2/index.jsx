@@ -14,7 +14,7 @@ const C01HomepageBannar2 = (props) => {
         <div className="absolute flex flex-col inset-x-[0] items-center justify-start mx-auto top-[6%] w-[84%]">
           <Text
             className="text-center text-sm text-white-A700 tracking-[0.42px] uppercase"
-            size="txtPoppinsMedium14WhiteA700"
+            size="txtPoppinsMedium14"
           >
             {props?.bestdealstext}
           </Text>
@@ -111,7 +111,7 @@ const C01HomepageBannar2 = (props) => {
             }
             shape="round"
             color="white_A700"
-            size="md"
+            size="lg"
             variant="fill"
           >
             <div className="!text-green-A700 font-poppins font-semibold text-justify text-sm">

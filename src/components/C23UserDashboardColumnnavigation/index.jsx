@@ -8,7 +8,7 @@ const C23UserDashboardColumnnavigation = (props) => {
       <div className={props.className}>
         <div className="flex flex-col items-start justify-start pb-4 pl-5 pt-6 w-auto">
           <Text
-            className="text-gray-900 text-xl w-auto"
+            className="text-gray-900_01 text-xl w-auto"
             size="txtPoppinsMedium20"
           >
             {props?.navigation}
@@ -19,7 +19,7 @@ const C23UserDashboardColumnnavigation = (props) => {
             name="accountlinks"
             placeholder="Dashboard"
             value={props?.dashboardimage}
-            className="!placeholder:text-gray-900 !text-gray-900 font-poppins p-0 text-base text-left w-full"
+            className="!placeholder:text-gray-900_01 !text-gray-900_01 font-poppins p-0 text-base text-left w-full"
             wrapClassName="flex w-full"
             prefix={
               <Img

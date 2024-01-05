@@ -44,6 +44,7 @@
 --red_300:#c66b60; 
 --gray_50:#f9f9f9; 
 --white_A700_cc:#ffffffcc; 
+--yellow_500:#fff61e; 
 --light_green_500:#8cc152; 
 --gray_500_01:#95b297; 
 --deep_orange_400:#ff7e40; 
@@ -53,14 +54,14 @@
 --black_900_a2:#000000a2; 
 --gray_500:#999999; 
 --lime_600:#c7c934; 
---gray_900:#191919; 
+--gray_900:#002c19; 
 --red_300_01:#e47c6e; 
 --gray_100:#f2f2f2; 
 --red_600:#ea3942; 
 --red_200:#cf9e76; 
 --white_A700_90:#ffffff90; 
 --orange_600_01:#f98500; 
---green_900:#2b562e; 
+--green_900:#004513; 
 --green_500:#36c63f; 
 --white_A700_99:#ffffff99; 
 --white_A700_11:#ffffff11; 
@@ -85,9 +86,10 @@
 --gray_400_01:#b3ccb4; 
 --gray_400_89:#b3b3b389; 
 --gray_100_01:#f7f7f7; 
---green_900_01:#1a421d; 
+--green_900_01:#2b562e; 
 --white_A700:#ffffff; 
 --green_700_19:#20b42619; 
+--green_900_02:#1a421d; 
 --deep_orange_50:#f3e8d7; 
 --green_A700_63:#00b20663; 
 --red_900:#a82a27; 
@@ -102,7 +104,9 @@
 --black_900:#002602; 
 --deep_orange_200:#efbe9a; 
 --black_900_14_01:#00000014; 
+--gray_900_02:#173a19; 
 --gray_700:#666666; 
+--white_A700_6c:#ffffff6c; 
 --green_A700_75:#00b20675; 
 --lime_400:#dee051; 
 --green_800_01:#406b41; 
@@ -112,7 +116,7 @@
 --white_A700_a2:#ffffffa2; 
 --orange_A700:#ff5e00; 
 --deep_orange_300_01:#eb996e; 
---gray_900_01:#173a19; 
+--gray_900_01:#191919; 
 --orange_700:#f77c00; 
 --light_green_600_01:#79ad54; 
 --lime_400_01:#d0d24b; 

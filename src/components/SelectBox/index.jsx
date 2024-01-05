@@ -5,7 +5,7 @@ import { ErrorMessage } from "../ErrorMessage";
 
 const variants = {
   fill: {
-    white_A700: "bg-white-A700 text-gray-900",
+    white_A700: "bg-white-A700 text-gray-900_01",
     blue_gray_900: "bg-blue_gray-900",
   },
 };

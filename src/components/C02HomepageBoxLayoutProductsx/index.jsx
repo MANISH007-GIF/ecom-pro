@@ -23,8 +23,8 @@ const C02HomepageBoxLayoutProductsx = (props) => {
             </Text>
             <div className="flex flex-col items-start justify-start w-auto">
               <Text
-                className="text-base text-gray-900 w-auto"
-                size="txtPoppinsMedium16"
+                className="text-base text-gray-900_01 w-auto"
+                size="txtPoppinsMedium16Gray90001"
               >
                 {props?.productprice}
               </Text>
@@ -36,7 +36,7 @@ const C02HomepageBoxLayoutProductsx = (props) => {
             alt="close"
           />
           <Button
-            className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] rounded-[50%] w-10"
+            className="absolute flex h-10 inset-y-[0] items-center justify-center my-auto right-[18%] w-10"
             shape="circle"
             color="gray_100"
             size="md"

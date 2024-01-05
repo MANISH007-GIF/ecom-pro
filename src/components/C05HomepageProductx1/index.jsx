@@ -26,15 +26,15 @@ const C05HomepageProductx1 = (props) => {
               </Text>
               <div className="flex flex-col items-start justify-start w-auto">
                 <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtPoppinsMedium16"
+                  className="text-base text-gray-900_01 w-auto"
+                  size="txtPoppinsMedium16Gray90001"
                 >
                   {props?.price}
                 </Text>
               </div>
             </div>
             <Button
-              className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] rounded-[50%] w-10"
+              className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] w-10"
               shape="circle"
               color="gray_100"
               size="md"

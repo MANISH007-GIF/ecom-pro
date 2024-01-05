@@ -13,7 +13,7 @@ const C01HomepageDiscountbannar = (props) => {
           <div className="flex flex-col gap-3 items-start justify-start w-auto">
             <Text
               className="text-base text-white-A700 tracking-[0.32px] uppercase w-auto"
-              size="txtPoppinsMedium16WhiteA700"
+              size="txtPoppinsMedium16"
             >
               {props?.summersaleOne}
             </Text>
@@ -36,7 +36,7 @@ const C01HomepageDiscountbannar = (props) => {
             />
           }
           color="green_A700"
-          size="md"
+          size="lg"
           variant="fill"
         >
           <div className="font-poppins font-semibold text-base text-left">

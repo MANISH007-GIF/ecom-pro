@@ -85,12 +85,12 @@ const Homepage1Page = () => {
                   <div className="flex flex-col items-start justify-start w-full">
                     <Text
                       className="md:ml-[0] ml-[5px] text-center text-green-A700 text-sm tracking-[0.28px] uppercase"
-                      size="txtPoppinsMedium14"
+                      size="txtPoppinsMedium14GreenA700"
                     >
                       Welcome to shopery
                     </Text>
                     <Text
-                      className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900"
+                      className="leading-[120.00%] mt-1 md:text-5xl text-7xl text-gray-900_01"
                       size="txtPoppinsSemiBold72"
                     >
                       <>
@@ -102,10 +102,10 @@ const Homepage1Page = () => {
                   </div>
                   <div className="flex flex-col gap-3 items-start justify-start md:ml-[0] ml-[5px] mt-[25px] w-auto">
                     <Text
-                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900 w-auto"
+                      className="md:text-3xl sm:text-[28px] text-[32px] text-gray-900_01 w-auto"
                       size="txtPoppinsRegular32"
                     >
-                      <span className="text-gray-900 font-poppins text-left font-normal">
+                      <span className="text-gray-900_01 font-poppins text-left font-normal">
                         Sale up to{" "}
                       </span>
                       <span className="text-orange-600 font-poppins text-left font-semibold">
@@ -129,7 +129,7 @@ const Homepage1Page = () => {
                       />
                     }
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <div className="font-semibold text-base text-left">
@@ -161,7 +161,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-base text-gray-900 w-auto"
+                      className="text-base text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold16"
                     >
                       Free Shipping
@@ -182,7 +182,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-base text-gray-900 w-auto"
+                      className="text-base text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold16"
                     >
                       Customer Support 24/7
@@ -208,7 +208,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-base text-gray-900 w-auto"
+                      className="text-base text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold16"
                     >
                       100% Secure Payment
@@ -229,7 +229,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-2 items-start justify-center w-auto">
                     <Text
-                      className="text-base text-gray-900 w-auto"
+                      className="text-base text-gray-900_01 w-auto"
                       size="txtPoppinsSemiBold16"
                     >
                       Money-Back Guarantee
@@ -249,7 +249,7 @@ const Homepage1Page = () => {
         <div className="flex flex-col gap-[50px] items-center justify-start max-w-[1320px] mx-auto md:px-5 w-full">
           <div className="flex flex-col gap-4 items-center justify-start w-auto sm:w-full">
             <Text
-              className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+              className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
               size="txtPoppinsSemiBold40"
             >
               Featured Products
@@ -295,7 +295,7 @@ const Homepage1Page = () => {
                 <div className="flex my-auto w-[70%] md:w-full">
                   <div className="flex flex-col gap-4 items-start justify-start my-auto w-auto">
                     <Text
-                      className="text-gray-900 text-xl w-auto"
+                      className="text-gray-900_01 text-xl w-auto"
                       size="txtPoppinsMedium20"
                     >
                       Hot Deals
@@ -314,7 +314,7 @@ const Homepage1Page = () => {
                   </div>
                   <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                     <Text
-                      className="text-gray-900 text-xl w-auto"
+                      className="text-gray-900_01 text-xl w-auto"
                       size="txtPoppinsMedium20"
                     >
                       Best Seller
@@ -340,7 +340,7 @@ const Homepage1Page = () => {
                 </div>
                 <div className="flex flex-col gap-4 items-start justify-start ml-[-88px] my-auto w-auto z-[1]">
                   <Text
-                    className="text-gray-900 text-xl w-auto"
+                    className="text-gray-900_01 text-xl w-auto"
                     size="txtPoppinsMedium20"
                   >
                     Top Rated
@@ -375,7 +375,7 @@ const Homepage1Page = () => {
           <div className="flex flex-col gap-[50px] items-center justify-start w-full">
             <div className="flex flex-col gap-4 items-center justify-start w-auto">
               <Text
-                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold40"
               >
                 Top Category
@@ -410,7 +410,7 @@ const Homepage1Page = () => {
                 <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start sm:ml-[0] hover:mx-0 pb-6 pt-8 rounded-md hover:shadow-bs2 shadow-bs2 w-auto hover:w-full">
                   <Img
                     className="h-20 w-20"
-                    src="images/img_vegetable.svg"
+                    src="images/img_salad_1_white_a700.svg"
                     alt="vegetable"
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
@@ -437,7 +437,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       River Fish
@@ -458,7 +458,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Meat
@@ -474,12 +474,12 @@ const Homepage1Page = () => {
                 <div className="bg-white-A700 border hover:border-0 border-gray-200_01 border-solid hover:cursor-pointer flex flex-col gap-5 items-center justify-start sm:ml-[0] hover:mx-0 pb-6 pt-8 rounded-md hover:shadow-bs2 w-auto hover:w-full">
                   <Img
                     className="h-20 w-20"
-                    src="images/img_vegetable.svg"
+                    src="images/img_salad_1_white_a700.svg"
                     alt="softdrinkOne"
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Water and Drinks
@@ -500,7 +500,7 @@ const Homepage1Page = () => {
                   />
                   <div className="flex flex-col gap-1.5 items-center justify-start w-auto">
                     <Text
-                      className="text-center text-gray-900 text-lg w-auto"
+                      className="text-center text-gray-900_01 text-lg w-auto"
                       size="txtPoppinsMedium18"
                     >
                       Snacks
@@ -546,7 +546,7 @@ const Homepage1Page = () => {
           <div className="flex sm:flex-col flex-row gap-2.5 items-center justify-between max-w-[1320px] mx-auto w-full">
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <Text
-                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold40"
               >
                 Newest Products
@@ -605,7 +605,7 @@ const Homepage1Page = () => {
           <div className="flex sm:flex-col flex-row md:gap-10 items-center justify-between max-w-[1920px] md:px-10 sm:px-5 px-[300px] w-full">
             <div className="flex flex-col gap-4 items-start justify-start w-auto">
               <Text
-                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900 w-auto"
+                className="sm:text-4xl md:text-[38px] text-[40px] text-gray-900_01 w-auto"
                 size="txtPoppinsSemiBold40"
               >
                 Client Testimonial
@@ -710,7 +710,7 @@ const Homepage1Page = () => {
           image="images/img_instagrampost_5.png"
           image1="images/img_instagrampost_6.png"
         />
-        <footer className="bg-gray-900 flex items-center justify-center md:px-5 w-full">
+        <footer className="bg-gray-900_01 flex items-center justify-center md:px-5 w-full">
           <div className="flex flex-col md:gap-10 gap-20 items-center justify-center w-full">
             <div className="bg-gray-100 flex md:flex-col flex-row md:gap-10 gap-[115px] items-center justify-start p-[49px] md:px-10 sm:px-5 w-full">
               <div className="flex flex-row gap-[9.76px] items-center justify-start md:ml-[0] ml-[250px] w-auto">
@@ -720,7 +720,7 @@ const Homepage1Page = () => {
                   alt="plantOne_One"
                 />
                 <Text
-                  className="sm:text-[35.04px] md:text-[37.04px] text-[39.04px] text-gray-900 tracking-[-1.17px] w-auto"
+                  className="sm:text-[35.04px] md:text-[37.04px] text-[39.04px] text-gray-900_01 tracking-[-1.17px] w-auto"
                   size="txtPoppinsMedium3904"
                 >
                   Ecobazar
@@ -728,7 +728,7 @@ const Homepage1Page = () => {
               </div>
               <div className="flex sm:flex-1 flex-col gap-1 items-start justify-start w-auto sm:w-full">
                 <Text
-                  className="text-2xl md:text-[22px] text-gray-900 sm:text-xl w-auto"
+                  className="text-2xl md:text-[22px] text-gray-900_01 sm:text-xl w-auto"
                   size="txtPoppinsMedium24"
                 >
                   Subcribe our Newsletter
@@ -754,7 +754,7 @@ const Homepage1Page = () => {
                 <Button
                   className="absolute cursor-pointer font-semibold h-full inset-y-[0] min-w-[162px] my-auto right-[0] rounded-[26px] text-base text-center"
                   color="green_A700"
-                  size="md"
+                  size="lg"
                   variant="fill"
                 >
                   Subscribe
@@ -779,8 +779,8 @@ const Homepage1Page = () => {
                   </Text>
                   <div className="flex flex-row gap-4 items-center justify-start w-auto">
                     <Text
-                      className="bg-gray-900 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
-                      size="txtPoppinsMedium14WhiteA700"
+                      className="bg-gray-900_01 justify-center py-[5px] text-shadow-ts text-sm text-white-A700 w-auto"
+                      size="txtPoppinsMedium14"
                     >
                       (219) 555-0114
                     </Text>
@@ -791,8 +791,8 @@ const Homepage1Page = () => {
                       or
                     </Text>
                     <Text
-                      className="bg-gray-900 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
-                      size="txtPoppinsMedium14WhiteA700"
+                      className="bg-gray-900_01 justify-center pb-1 pt-[7px] text-shadow-ts text-sm text-white-A700 w-auto"
+                      size="txtPoppinsMedium14"
                     >
                       Proxy@gmail.com
                     </Text>
@@ -947,13 +947,13 @@ const Homepage1Page = () => {
                   </div>
                 </div>
               </div>
-              <div className="bg-gray-900 flex md:flex-col flex-row md:gap-5 items-center justify-start py-6 shadow-bs8 w-full">
+              <div className="bg-gray-900_01 flex md:flex-col flex-row md:gap-5 items-center justify-start py-6 shadow-bs8 w-full">
                 <div className="flex flex-row gap-2 items-start justify-start w-auto">
                   <Button
                     className="flex h-10 items-center justify-center rounded-[50%] w-10"
                     shape="round"
                     color="green_A700"
-                    size="md"
+                    size="lg"
                     variant="fill"
                   >
                     <Img
@@ -963,9 +963,9 @@ const Homepage1Page = () => {
                     />
                   </Button>
                   <Button
-                    className="flex h-10 items-center justify-center rounded-[50%] w-10"
+                    className="flex h-10 items-center justify-center w-10"
                     shape="circle"
-                    size="md"
+                    size="lg"
                   >
                     <Img
                       className="h-[18px]"
@@ -991,28 +991,28 @@ const Homepage1Page = () => {
                   Ecobazar eCommerce © 2021. All Rights Reserved
                 </Text>
                 <div className="flex flex-row gap-2 items-start justify-start ml-52 md:ml-[0] w-auto">
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-[13px] my-0.5"
                       src="images/img_settings.svg"
                       alt="settings_Two"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-2.5 my-1"
                       src="images/img_settings_white_a700.svg"
                       alt="settings_Three"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-end justify-end rounded-[5px] w-[17%]">
                     <Img
                       className="h-[18px] mt-2.5"
                       src="images/img_settings_white_a700_18x39.svg"
                       alt="settings_Four"
                     />
                   </div>
-                  <div className="bg-gray-900 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
+                  <div className="bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-col items-center justify-start p-1.5 rounded-[5px] w-[17%]">
                     <Img
                       className="h-[17px]"
                       src="images/img_user_red_a700.svg"
@@ -1020,7 +1020,7 @@ const Homepage1Page = () => {
                     />
                   </div>
                   <div className="h-8 relative w-[24%]">
-                    <div className="absolute bg-gray-900 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
+                    <div className="absolute bg-gray-900_01 border border-blue_gray-900 border-solid flex flex-row h-full inset-[0] items-start justify-center m-auto pb-[5px] px-[5px] rounded-[5px] w-full">
                       <Img
                         className="h-[11px] mt-1 w-[11px]"
                         src="images/img_lock1.svg"

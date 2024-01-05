@@ -13,7 +13,7 @@ const C02HomepageBoxLayoutTeamcard1 = (props) => {
         />
         <div className="flex flex-col gap-1 items-start justify-start w-auto">
           <Text
-            className="text-gray-900 text-lg w-auto"
+            className="text-gray-900_01 text-lg w-auto"
             size="txtPoppinsMedium18"
           >
             {props?.username}

@@ -86,7 +86,7 @@ const C02HomepageBoxLayoutNavigation = (props) => {
             />
             <Text
               className="md:text-3xl sm:text-[28px] text-[32px] text-black-900 tracking-[-0.96px] w-auto"
-              size="txtPoppinsMedium32"
+              size="txtPoppinsMedium32Black900"
             >
               {props?.ecobazar}
             </Text>
@@ -108,7 +108,7 @@ const C02HomepageBoxLayoutNavigation = (props) => {
             <Button
               className="cursor-pointer font-poppins font-semibold min-w-[98px] rounded-br rounded-tr text-center text-sm"
               color="green_A700"
-              size="md"
+              size="lg"
               variant="fill"
             >
               {props?.searchbutton}
@@ -128,7 +128,7 @@ const C02HomepageBoxLayoutNavigation = (props) => {
                 {props?.customerservicetext}
               </Text>
               <Text
-                className="text-gray-900 text-xl w-auto"
+                className="text-gray-900_01 text-xl w-auto"
                 size="txtPoppinsMedium20"
               >
                 {props?.phonenumbertext}
@@ -136,7 +136,7 @@ const C02HomepageBoxLayoutNavigation = (props) => {
             </div>
           </div>
         </div>
-        <div className="bg-gray-900 flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
+        <div className="bg-gray-900_01 flex md:flex-col flex-row md:gap-10 items-center justify-between max-w-[1320px] w-full">
           <div className="flex md:flex-1 md:flex-col flex-row gap-8 items-center justify-start w-auto md:w-full">
             <SelectBox
               className="!text-white-A700 font-medium font-poppins sm:pr-5 pr-6 text-base text-left w-[36%] md:w-full"

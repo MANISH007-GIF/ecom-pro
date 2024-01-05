@@ -25,7 +25,7 @@ const C05HomepageProductx = (props) => {
               {!!props?.fifty ? (
                 <Text
                   className="text-sm text-white-A700 w-auto"
-                  size="txtPoppinsMedium14WhiteA700"
+                  size="txtPoppinsMedium14"
                 >
                   {props?.fifty}
                 </Text>
@@ -44,8 +44,8 @@ const C05HomepageProductx = (props) => {
               </Text>
               <div className="flex flex-row gap-0.5 items-start justify-start w-auto">
                 <Text
-                  className="text-base text-gray-900 w-auto"
-                  size="txtPoppinsMedium16"
+                  className="text-base text-gray-900_01 w-auto"
+                  size="txtPoppinsMedium16Gray90001"
                 >
                   {props?.price}
                 </Text>
@@ -58,7 +58,7 @@ const C05HomepageProductx = (props) => {
               </div>
             </div>
             <Button
-              className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] rounded-[50%] w-10"
+              className="absolute bottom-[0] flex h-10 items-center justify-center right-[1%] w-10"
               shape="circle"
               color="gray_100"
               size="md"

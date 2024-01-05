@@ -10,8 +10,8 @@ const C10ProductsDetailsDescriptionQuantity = (props) => {
           <Img className="h-3.5 w-3.5" src="images/img_minus.svg" alt="minus" />
         </div>
         <Text
-          className="text-base text-center text-gray-900 w-auto"
-          size="txtPoppinsRegular16Gray900"
+          className="text-base text-center text-gray-900_01 w-auto"
+          size="txtPoppinsRegular16Gray90001"
         >
           {props?.textvalue}
         </Text>

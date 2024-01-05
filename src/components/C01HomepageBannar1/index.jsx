@@ -15,7 +15,7 @@ const C01HomepageBannar1 = (props) => {
           <div className="flex flex-col gap-3 items-center justify-center w-auto">
             <Text
               className="text-center text-sm text-white-A700 tracking-[0.42px] uppercase w-auto"
-              size="txtPoppinsMedium14WhiteA700"
+              size="txtPoppinsMedium14"
             >
               {props?.bestdealtext}
             </Text>
